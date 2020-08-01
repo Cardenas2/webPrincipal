@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,CAAC;EACG,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,UAAU,EAAE,UAAU;;AAG1B,IAAI;EACA,WAAW,ECGH,oBAAoB;EDF5B,SAAS,ECKL,IAAI",
+"mappings": "AAAA,CAAC;EACG,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,UAAU,EAAE,UAAU;;AAG1B,IAAI;EACA,WAAW,ECGH,oBAAoB;EDF5B,SAAS,ECKL,IAAI;;ADFZ,cAAW;EACP,WAAW,ECDH,wBAAwB",
 "sources": ["../sass/componentes/_generales.scss","../sass/componentes/_variables.scss"],
 "names": [],
 "file": "style.css"
