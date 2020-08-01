@@ -8,6 +8,52 @@ body {
   font-size: 16px; }
 
 h1, h2, h3, h4 {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  padding: 0; }
+
+.header {
+  background-color: transparent;
+  height: 70px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+figure {
+  margin: 0; }
+
+.container {
+  max-width: 1000px;
+  /* width: 100% lo reemplaza flex:1; */
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit; }
+
+.menu {
+  height: inherit; }
+  .menu__lista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: inherit; }
+  .menu__item {
+    height: inherit; }
+  .menu__link {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #009471;
+    font-size: 0.875rem; }
 
 /*# sourceMappingURL=style.css.map */
