@@ -1,15 +1,22 @@
 .header{
-    background-color:$color7;
+    background-color:$color8;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include media(tablet){
+        display: block;
+        height: auto;
+        padding: 1em 0;
+        position: inherit;
+    }
 }
 
 .burger-button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    display: none;
     background-color: rgba($color6, .9);
     padding-top: 10px;
     text-align: center;

@@ -12,16 +12,23 @@ h1, h2, h3, h4 {
   padding: 0; }
 
 .header {
-  background-color: #fee1d7;
+  background-color: #ffffff;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  @media only screen and (max-width: 767px) {
+    .header {
+      display: block;
+      height: auto;
+      padding: 1em 0;
+      position: inherit; } }
 
 .burger-button {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  display: none;
   background-color: rgba(245, 70, 12, 0.9);
   padding-top: 10px;
   text-align: center;
