@@ -11,6 +11,13 @@
     height: 40px;
     border-radius: 50%;
     background-color: rgba($color6, .9);
+    padding-top: 10px;
+    text-align: center;
+    position: fixed;
+    z-index: 20;
+    right:1em;
+    top: 5px;
+    color: white;
 }
 figure{
     margin:0;
