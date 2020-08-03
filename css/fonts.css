@@ -4,6 +4,7 @@
   src: url("../fonts/icomoon.eot?bqb2fe#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?bqb2fe") format("truetype"), url("../fonts/icomoon.woff?bqb2fe") format("woff"), url("../fonts/icomoon.svg?bqb2fe#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
+  
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;

@@ -1,16 +1,17 @@
 .header{
-    background-color: transparent;
+    background-color:$color7;
     height: 70px;
-    position: fixed;
-    right: 0;
-    left: 0;
-    top:0;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.burger-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba($color6, .9);
+}
 figure{
     margin:0;
 }
@@ -47,5 +48,9 @@ figure{
         text-transform: uppercase;
         color:$color1;
         font-size: 0.875rem;
+    }
+    &__link:hover{
+        color:$color3;
+        font-weight: 500;
     }
   }
