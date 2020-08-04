@@ -40,6 +40,9 @@ h1, h2, h3, h4 {
   right: 1em;
   top: 5px;
   color: white; }
+  @media only screen and (max-width: 767px) {
+    .burger-button {
+      display: block; } }
 
 figure {
   margin: 0; }
@@ -54,6 +57,12 @@ figure {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit; }
+
+.flexbox {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-direction: column; */ }
 
 .menu {
   height: inherit; }
@@ -70,6 +79,7 @@ figure {
         background-color: rgba(255, 255, 255, 0.8);
         z-index: 10;
         top: 0;
+        right: -100vw;
         width: 100vw;
         /* height: 100vh; */
         bottom: 0;
@@ -101,5 +111,9 @@ figure {
   .menu__link:hover {
     color: #00775B;
     font-weight: 500; }
+
+@media screen and (max-width: 767px) {
+  .is-active {
+    right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

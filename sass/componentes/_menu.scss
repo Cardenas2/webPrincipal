@@ -30,6 +30,10 @@
     right:1em;
     top: 5px;
     color: white;
+    @include media(tablet){
+       display: block;
+    
+    }
 }
 figure{
     margin:0;
@@ -46,6 +50,12 @@ figure{
     flex-wrap: inherit;
   }
 
+  .flexbox {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
   .menu {
     height: inherit;
     &__lista{
@@ -60,7 +70,7 @@ figure{
             background-color: rgba($color8, .8);
             z-index: 10;
             top: 0;
-            // right:-100vw;
+            right:-100vw;
             width: 100vw;
             /* height: 100vh; */
             bottom: 0;
@@ -69,8 +79,11 @@ figure{
             align-items: center;
             justify-content: center;
             transition: .3s;
-            }
-    }
+           }
+           
+        }
+
+   
     &__item{
         height: inherit;
         @include media(tablet){
@@ -99,3 +112,9 @@ figure{
         font-weight: 500;
     }
   }
+
+@media screen and (max-width:767px){
+    .is-active{
+        right: 0;
+    }
+}
