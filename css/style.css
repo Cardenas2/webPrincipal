@@ -12,7 +12,11 @@ h1, h2, h3, h4 {
   padding: 0; }
 
 .header {
-  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: transparent;
   height: 70px;
   display: flex;
   align-items: center;
@@ -113,5 +117,22 @@ figure {
   .menu__link:hover {
     color: #00775B;
     font-weight: 500; }
+
+.hero {
+  background-image: url(../img/Hero.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: right center;
+  display: flex;
+  align-items: center;
+  justify-content: start; }
+  .hero__text {
+    color: #009471;
+    width: 66%; }
+  .hero__titulo1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4rem; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+.hero{
+    background-image:url(../img/Hero.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: right center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    &__text{
+        color:$color1;
+        width: 66%;
+        
+    }
+    &__titulo1{
+        font-family:$fuente-Dos;
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 4rem;
+    }
+}

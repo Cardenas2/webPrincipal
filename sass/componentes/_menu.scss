@@ -1,5 +1,9 @@
 .header{
-    background-color:$color8;
+    position: fixed;
+    top:0;
+    right: 0;
+    left:0;
+    background-color:transparent;
     height: 70px;
     display: flex;
     align-items: center;
