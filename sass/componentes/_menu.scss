@@ -61,7 +61,7 @@ figure{
     height: inherit;
     @include media(tablet){
         position: fixed;
-        background-color: rgba($color6, .7);
+        background-color: rgba($color8, .7);
         width: 100vw;
         z-index: 10;
         right: -100vw;
@@ -70,7 +70,7 @@ figure{
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: .3s;
+        transition: .8s;
         &.is-active {
             right: 0;
           }
@@ -101,6 +101,7 @@ figure{
         text-transform: uppercase;
         color:$color1;
         font-size: 0.875rem;
+       
         @include media(tablet){
             justify-content: center;
             font-size: 2em;
