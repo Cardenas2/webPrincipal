@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <title>Web Personal</title>
-</head>
+</head> 
 <body>
     <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header">
@@ -28,29 +28,12 @@
     </header><!--fin clase header-->
 
     <script>
-      const ipad = window.matchMedia('screen and (max-width: 767px)')
-        const menu = document.querySelector('.menu');
-        const burgerButton = document.querySelector('#burger-menu');
-        
-        ipad.addListener(validation)
-  
-        function validation(event) {
-          if (event.matches) {
-            burgerButton.addEventListener('click', hideShow)
-          } else {
-            burgerButton.removeEventListener('click', hideShow)
-          }
-        }
-        validation(ipad);
-  
-  
-        function hideShow() {
-          if (menu.classList.contains('is-active')) {
-            menu.classList.remove('is-active');
-          } else {
-            menu.classList.add('is-active');
-          }
-        }
+      
+      const menu = document.querySelector('.menu');
+      document.querySelector('.menu').classList.add('is-active');
+      
+      
+      
     </script>
 </body>
 </html>
