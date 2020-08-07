@@ -22,19 +22,20 @@
    
 }
 
+
 .burger-button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     display: none;
-    background-color: rgba($color6, .9);
+    background-color:transparent;
     padding-top: 10px;
     text-align: center;
     position: fixed;
     z-index: 20;
     right:1em;
     top: 5px;
-    color: white;
+    color:$color1;
     @include media(tablet){
        display: block;
     

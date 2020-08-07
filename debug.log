@@ -30,3 +30,5 @@
 [0802/221220.023:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0802/222720.025:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0802/224220.027:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0805/191742.844:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0807/171915.149:ERROR:crash_report_database_win.cc(469)] failed to stat report
