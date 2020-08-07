@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
 .burger-button {
   border-radius: 50%;
   display: none;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: transparent;
   padding-top: 10px;
   text-align: center;
   position: fixed;
@@ -135,5 +135,17 @@ figure {
     font-size: 4rem;
     font-weight: 600;
     line-height: 4rem; }
+  .hero__icono--Down {
+    background-color: #009471;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 34px;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    font-size: 20px;
+    color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
