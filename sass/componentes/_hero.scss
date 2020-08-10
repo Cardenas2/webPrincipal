@@ -7,6 +7,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    @include media(tablet){
+        background-image:url(../img/hero768.png);
+    }
+    
     
 
     &__text{
@@ -17,6 +21,12 @@
             width: 55%;
             margin-left: 2rem;
         }
+        @include media(tablet){
+            align-self: flex-end;
+            width: 70%;
+            margin-bottom: 2rem;
+        }
+        
         
         
     }
@@ -38,7 +48,11 @@
         text-align: center;
         line-height: 34px;
         color:$color8;
+        display: block;
         margin-bottom: 1.5rem;
+        @include media(tablet){
+            display: none;
+        }
         
     }
 }
