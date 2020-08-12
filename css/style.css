@@ -22,10 +22,10 @@ h1, h2, h3, h4 {
       display: block;
       height: auto;
       padding: 1em 0;
-      position: inherit; }
-      .header .logo {
-        text-align: left;
-        margin-left: 1em; } }
+      position: inherit; } }
+  .header .logo {
+    text-align: left;
+    margin-left: 1rem; }
 
 .burger-button {
   border-radius: 50%;
