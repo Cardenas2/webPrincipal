@@ -131,6 +131,9 @@ figure {
     .hero {
       background-image: url(../img/hero768.png);
       height: 350px; } }
+  @media only screen and (max-width: 425px) {
+    .hero {
+      height: 200px; } }
   .hero__text {
     color: #009471;
     width: 66%;
@@ -144,6 +147,11 @@ figure {
         align-self: flex-end;
         width: 70%;
         margin-bottom: 2rem; } }
+    @media only screen and (max-width: 425px) {
+      .hero__text {
+        width: 80%;
+        margin-bottom: 1rem;
+        margin-left: 1rem; } }
   .hero__titulo1 {
     font-family: "Montserrat", sans-serif;
     font-size: 4rem;
@@ -155,7 +163,7 @@ figure {
         line-height: 3.2rem; } }
     @media only screen and (max-width: 425px) {
       .hero__titulo1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
         line-height: 2rem; } }
   .hero__icono--Down {
     background-color: #009471;

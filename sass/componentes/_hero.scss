@@ -14,6 +14,9 @@
         background-image:url(../img/hero768.png);
         height: 350px;
     }
+    @include media(phone){
+        height: 200px;
+    }
 
     
     &__text{
@@ -30,6 +33,11 @@
             width: 70%;
             margin-bottom: 2rem;
         }
+        @include media (phone){
+            width: 80%;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+        }
         
     }
     &__titulo1{
@@ -42,9 +50,8 @@
             line-height: 3.2rem;
         }
         @include media (phone){
-            font-size: 2rem;
+            font-size: 1.9rem;
             line-height: 2rem;
-
         }
     }
     &__icono--Down{
