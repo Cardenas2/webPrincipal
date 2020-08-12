@@ -126,7 +126,8 @@ figure {
   justify-content: start; }
   @media only screen and (max-width: 767px) {
     .hero {
-      background-image: url(../img/hero768.png); } }
+      background-image: url(../img/hero768.png);
+      height: 350px; } }
   .hero__text {
     color: #009471;
     width: 66%;

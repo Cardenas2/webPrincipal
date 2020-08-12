@@ -9,6 +9,7 @@
     justify-content: start;
     @include media(tablet){
         background-image:url(../img/hero768.png);
+        height: 350px;
     }
     
     
@@ -26,9 +27,6 @@
             width: 70%;
             margin-bottom: 2rem;
         }
-        
-        
-        
     }
     &__titulo1{
         font-family:$fuente-Dos;
