@@ -124,6 +124,9 @@ figure {
   flex-direction: column;
   align-items: center;
   justify-content: start; }
+  @media only screen and (max-width: 992px) {
+    .hero {
+      height: 400px; } }
   @media only screen and (max-width: 767px) {
     .hero {
       background-image: url(../img/hero768.png);
@@ -150,6 +153,10 @@ figure {
       .hero__titulo1 {
         font-size: 3.2rem;
         line-height: 3.2rem; } }
+    @media only screen and (max-width: 425px) {
+      .hero__titulo1 {
+        font-size: 2rem;
+        line-height: 2rem; } }
   .hero__icono--Down {
     background-color: #009471;
     width: 32px;

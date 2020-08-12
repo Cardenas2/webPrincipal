@@ -7,17 +7,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    @include media(desktop-s){
+        height: 400px;
+    }
     @include media(tablet){
         background-image:url(../img/hero768.png);
         height: 350px;
     }
-    
-    
 
+    
     &__text{
         color:$color1;
         width: 66%;
         margin-left: 1rem;
+        
         @include media(desktop-s){
             width: 55%;
             margin-left: 2rem;
@@ -27,6 +30,7 @@
             width: 70%;
             margin-bottom: 2rem;
         }
+        
     }
     &__titulo1{
         font-family:$fuente-Dos;
@@ -36,6 +40,11 @@
         @include media(desktop-s){
             font-size: 3.2rem;
             line-height: 3.2rem;
+        }
+        @include media (phone){
+            font-size: 2rem;
+            line-height: 2rem;
+
         }
     }
     &__icono--Down{
