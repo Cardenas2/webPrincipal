@@ -185,6 +185,13 @@ figure {
   .portafolio .portafolio__general {
     display: grid;
     background-color: coral; }
+  .portafolio .portafolio__item {
+    width: 33%;
+    height: 350px;
+    background-color: cornflowerblue;
+    text-align: left; }
+    .portafolio .portafolio__item .portafolio__item-img {
+      width: 100%; }
 
 .tituloDos {
   font-size: 2.5rem;
@@ -199,5 +206,9 @@ figure {
   margin: 0.75rem auto;
   line-height: 24px;
   color: #002019; }
+
+.tituloTres {
+  font-size: 2rem;
+  font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */

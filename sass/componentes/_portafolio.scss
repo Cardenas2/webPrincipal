@@ -6,6 +6,17 @@
         display: grid;
         background-color: coral;
     }
+    .portafolio__item{
+        width: 33%;
+        height: 350px;
+        background-color: cornflowerblue;
+        text-align: left;
+        .portafolio__item-img{
+            width: 100%;
+        }
+        
+       
+    }
 }
 
 .tituloDos{
@@ -21,4 +32,8 @@
    margin:0.75rem auto;
    line-height: 24px;
    color:$color4;
+}
+.tituloTres{
+    font-size: 2rem;
+    font-weight: 500;
 }
