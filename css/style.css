@@ -180,8 +180,19 @@ figure {
         display: none; } }
 
 .portafolio {
-  background-color: brown;
   text-align: center;
-  padding: 4rem 0; }
+  padding: 5rem 0; }
+  .portafolio .tituloDos {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 40px;
+    color: #00775B; }
+  .portafolio .parrafo {
+    position: relative;
+    width: 66%;
+    font-size: 1rem;
+    margin: 0.75rem auto;
+    line-height: 24px;
+    color: #002019; }
 
 /*# sourceMappingURL=style.css.map */
