@@ -187,12 +187,17 @@ figure {
     width: 82%;
     margin: 0 auto; }
   .portafolio__trabajos {
+    margin-top: 2rem;
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
-    background-color: crimson; }
+    grid-template-rows: repeat(3, 1fr); }
   .portafolio__item {
-    background-color: #f9f; }
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%; }
   .portafolio__presentacion {
     text-align: left;
     padding: 0.5rem 1rem; }
