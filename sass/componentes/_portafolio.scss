@@ -5,6 +5,11 @@
         width: 82%;
         margin:0 auto;
     }
+    &__trabajos{
+        display: grid;
+        background-color: crimson;
+        height: 100vh;
+    }
 }
 
 .titulo2{
