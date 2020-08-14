@@ -188,18 +188,35 @@ figure {
     margin: 0 auto; }
   .portafolio__trabajos {
     display: grid;
-    background-color: crimson;
-    height: 100vh; }
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: crimson; }
+  .portafolio__item {
+    background-color: #f9f; }
+  .portafolio__presentacion {
+    text-align: left;
+    padding: 0.5rem 1rem; }
+  .portafolio__img {
+    width: 100%; }
+  .portafolio__text-short {
+    color: #002019;
+    text-align: left;
+    line-height: 21px; }
 
 .titulo2 {
   font-size: 2.5rem;
   line-height: 40px;
   font-weight: 500; }
 
-.parrafo {
+.parrafo1 {
   font-size: 1rem;
   padding-top: 1rem;
   line-height: 21px;
   color: #002019; }
+
+.titulo3 {
+  font-size: 2rem;
+  font-weight: 400;
+  columns: #002019; }
 
 /*# sourceMappingURL=style.css.map */
