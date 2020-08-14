@@ -202,7 +202,8 @@ figure {
     text-align: left;
     padding: 0.5rem 1rem; }
   .portafolio__img {
-    width: 100%; }
+    width: 100%;
+    box-shadow: 0px 6px 8px rgba(0, 32, 25, 0.4); }
   .portafolio__text-short {
     color: #002019;
     text-align: left;
