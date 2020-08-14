@@ -9,7 +9,8 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
-  padding: 0; }
+  padding: 0;
+  color: #00775B; }
 
 .header {
   background-color: transparent;
@@ -182,5 +183,19 @@ figure {
 .portafolio {
   text-align: center;
   padding: 4rem 0; }
+  .portafolio__text {
+    width: 82%;
+    margin: 0 auto; }
+
+.titulo2 {
+  font-size: 2.5rem;
+  line-height: 40px;
+  font-weight: 500; }
+
+.parrafo {
+  font-size: 1rem;
+  padding-top: 1rem;
+  line-height: 21px;
+  color: #002019; }
 
 /*# sourceMappingURL=style.css.map */
