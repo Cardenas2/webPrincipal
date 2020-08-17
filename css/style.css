@@ -131,6 +131,9 @@ figure {
     .hero {
       background-image: url(../img/hero768.png);
       height: 350px; } }
+  @media only screen and (max-width: 425px) {
+    .hero {
+      height: 350px; } }
   @media only screen and (max-width: 375px) {
     .hero {
       height: 200px; } }
@@ -147,6 +150,10 @@ figure {
         align-self: flex-end;
         width: 70%;
         margin-bottom: 2rem; } }
+    @media only screen and (max-width: 425px) {
+      .hero__text {
+        width: 100%;
+        margin-bottom: .4rem; } }
     @media only screen and (max-width: 375px) {
       .hero__text {
         width: 80%;
@@ -161,6 +168,10 @@ figure {
       .hero__titulo1 {
         font-size: 3.2rem;
         line-height: 3.2rem; } }
+    @media only screen and (max-width: 425px) {
+      .hero__titulo1 {
+        font-size: 2.8rem;
+        line-height: 2.7rem; } }
     @media only screen and (max-width: 375px) {
       .hero__titulo1 {
         font-size: 1.9rem;
