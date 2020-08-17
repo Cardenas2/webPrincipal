@@ -9,7 +9,8 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
-  padding: 0; }
+  padding: 0;
+  color: #00775B; }
 
 .header {
   background-color: transparent;
@@ -189,5 +190,49 @@ figure {
     @media only screen and (max-width: 767px) {
       .hero__icono--Down {
         display: none; } }
+
+.portafolio {
+  text-align: center;
+  padding: 4rem 0; }
+  .portafolio__text {
+    width: 82%;
+    margin: 0 auto; }
+  .portafolio__trabajos {
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr); }
+  .portafolio__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%; }
+  .portafolio__presentacion {
+    text-align: left;
+    padding: 0.5rem 1rem; }
+  .portafolio__img {
+    width: 100%;
+    box-shadow: 0px 6px 8px rgba(0, 32, 25, 0.4); }
+  .portafolio__text-short {
+    color: #002019;
+    text-align: left;
+    line-height: 21px; }
+
+.titulo2 {
+  font-size: 2.5rem;
+  line-height: 40px;
+  font-weight: 500; }
+
+.parrafo1 {
+  font-size: 1rem;
+  padding-top: 1rem;
+  line-height: 21px;
+  color: #002019; }
+
+.titulo3 {
+  font-size: 2rem;
+  font-weight: 400;
+  columns: #002019; }
 
 /*# sourceMappingURL=style.css.map */

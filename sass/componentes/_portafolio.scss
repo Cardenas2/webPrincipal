@@ -1,0 +1,55 @@
+.portafolio{
+    text-align: center;
+    padding:4rem 0;
+    &__text{
+        width: 82%;
+        margin:0 auto;
+    }
+    &__trabajos{
+        margin-top:2rem;
+        display: grid;
+        grid-gap:1.5rem;
+        grid-template-columns: repeat(3,1fr);
+        // grid-template-rows: repeat(3,1fr);
+        
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+    &__presentacion{
+        text-align: left;
+        padding:0.5rem 1rem;
+    }
+    &__img{
+        width: 100%;
+        box-shadow: 0px 6px 8px rgba($color4, .4);
+    }
+    &__text-short{
+        color:$color4;
+        text-align: left;
+        line-height: 21px;
+    }
+
+}
+
+.titulo2{
+    font-size: 2.5rem;
+    line-height: 40px;
+    font-weight: 500;
+}
+.parrafo1{
+    font-size: 1rem;
+    padding-top: 1rem;
+    line-height: 21px;
+    color:$color4;
+}
+
+.titulo3{
+    font-size: 2rem;
+    font-weight: 400;
+    columns: $color4
+}
