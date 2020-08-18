@@ -15,3 +15,14 @@ h1,h2,h3,h4{
     padding: 0;
     color:$color3;
 }
+.container {
+    max-width: 1000px;
+    /* width: 100% lo reemplaza flex:1; */
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+  }

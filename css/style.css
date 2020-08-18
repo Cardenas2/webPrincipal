@@ -12,6 +12,17 @@ h1, h2, h3, h4 {
   padding: 0;
   color: #00775B; }
 
+.container {
+  max-width: 1000px;
+  /* width: 100% lo reemplaza flex:1; */
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit; }
+
 .header {
   background-color: transparent;
   height: 50px;
@@ -48,17 +59,6 @@ h1, h2, h3, h4 {
 
 figure {
   margin: 0; }
-
-.container {
-  max-width: 1000px;
-  /* width: 100% lo reemplaza flex:1; */
-  flex: 1;
-  margin: 0 auto;
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  height: inherit;
-  flex-wrap: inherit; }
 
 .flexbox {
   display: flex;
