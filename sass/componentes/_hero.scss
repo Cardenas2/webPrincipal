@@ -16,6 +16,7 @@
     }
     @include media (phone-m){
         height: 350px;
+
     }
     @include media(phone){
         height: 200px;
@@ -25,7 +26,7 @@
     &__text{
         color:$color1;
         width: 66%;
-        margin-left: 1rem;
+        margin-left: 2.4rem;
         
         @include media(desktop-s){
             width: 55%;
