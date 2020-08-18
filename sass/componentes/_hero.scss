@@ -16,6 +16,7 @@
     }
     @include media (phone-m){
         height: 350px;
+        width: 100vw;
 
     }
     @include media(phone){

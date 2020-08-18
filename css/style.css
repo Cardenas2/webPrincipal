@@ -134,7 +134,8 @@ figure {
       height: 350px; } }
   @media only screen and (max-width: 425px) {
     .hero {
-      height: 350px; } }
+      height: 350px;
+      width: 100vw; } }
   @media only screen and (max-width: 375px) {
     .hero {
       height: 200px; } }
