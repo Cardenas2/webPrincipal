@@ -2,7 +2,7 @@
     background-image:url(../img/Hero.jpg);
     height: 570px;
     background-size: cover;
-    background-position: right center;
+    background-position: right bottom;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,8 @@
 
     }
     @include media(phone){
-        height: 200px;
+        height: 250px;
+        
     }
 
     
