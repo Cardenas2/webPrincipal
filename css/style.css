@@ -298,4 +298,9 @@ figure {
 .parrafo1--color {
   color: #ffffff; }
 
+.footer {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center; }
+
 /*# sourceMappingURL=style.css.map */
