@@ -299,8 +299,20 @@ figure {
   color: #ffffff; }
 
 .footer {
+  padding: 3rem 0;
+  text-align: center;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  justify-content: center; }
+  grid-template-rows: repeat(2, 1fr); }
+  .footer__grupoSocialMedia {
+    display: flex;
+    background-color: darkgreen;
+    align-items: center;
+    justify-content: space-around; }
+  .footer__item {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
