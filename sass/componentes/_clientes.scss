@@ -10,15 +10,16 @@
     &__item{
         display: flex;
         flex-direction: column;
-        background-color: darkgoldenrod;
         justify-content: center;
         align-items: center;
     }
     &__icono{
         width: 80px;
         height: 80px;
+        border-radius: 50%;
         background-color: $color8;
-        
+        padding: 1rem;
+        margin-bottom: .6rem;
     }
 }
 .titulo2--color{

@@ -274,13 +274,15 @@ figure {
   .clientes__item {
     display: flex;
     flex-direction: column;
-    background-color: darkgoldenrod;
     justify-content: center;
     align-items: center; }
   .clientes__icono {
     width: 80px;
     height: 80px;
-    background-color: #ffffff; }
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: .6rem; }
 
 .titulo2--color {
   color: #ffffff;
