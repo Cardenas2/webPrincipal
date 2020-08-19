@@ -209,6 +209,9 @@ figure {
     @media only screen and (max-width: 992px) {
       .portafolio__trabajos {
         grid-template-columns: repeat(2, 1fr); } }
+    @media only screen and (max-width: 425px) {
+      .portafolio__trabajos {
+        grid-template-columns: 1fr; } }
   .portafolio__item {
     display: flex;
     flex-direction: column;
