@@ -229,6 +229,14 @@ figure {
     color: #002019;
     text-align: left;
     line-height: 21px; }
+  .portafolio .boton {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 2rem auto;
+    border-radius: 1.4rem;
+    background-color: #F5460C;
+    color: #ffffff; }
 
 .titulo2 {
   font-size: 2.5rem;
