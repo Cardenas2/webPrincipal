@@ -250,6 +250,7 @@ figure {
   columns: #002019; }
   @media only screen and (max-width: 992px) {
     .titulo3 {
-      font-size: 1.6rem; } }
+      font-size: 1.6rem;
+      line-height: 2.5rem; } }
 
 /*# sourceMappingURL=style.css.map */
