@@ -267,6 +267,11 @@ figure {
   background-color: #00B389;
   padding: 2rem;
   text-align: center; }
+  .clientes__grupo {
+    background-color: cyan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
 
 .titulo2--color {
   color: #ffffff;

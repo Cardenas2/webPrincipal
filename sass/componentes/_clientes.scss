@@ -2,6 +2,12 @@
     background-color: $color2;
     padding:2rem;
     text-align: center;
+    &__grupo{
+        background-color: cyan;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 .titulo2--color{
     color:$color8;
