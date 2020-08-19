@@ -1,7 +1,10 @@
 .portafolio{
     text-align: center;
     padding:4rem 0;
-    
+    background-color: crimson;
+    @include media(desktop-s){
+        padding: 3rem 1rem;
+    }
     &__text{
         width: 82%;
         margin:0 auto;
