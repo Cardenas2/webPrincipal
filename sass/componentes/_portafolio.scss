@@ -5,6 +5,7 @@
     @include media(desktop-s){
         padding: 3rem 1rem;
     }
+   
     &__text{
         width: 82%;
         margin:0 auto;
@@ -15,6 +16,9 @@
         grid-gap:1.5rem;
         grid-template-columns: repeat(3,1fr);
         // grid-template-rows: repeat(3,1fr);
+        @include media(tablet){
+            grid-template-columns: repeat(2,1fr);
+        }
     }
     &__item{
         display: flex;

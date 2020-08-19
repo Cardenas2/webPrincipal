@@ -208,6 +208,9 @@ figure {
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr); }
+    @media only screen and (max-width: 767px) {
+      .portafolio__trabajos {
+        grid-template-columns: repeat(2, 1fr); } }
   .portafolio__item {
     display: flex;
     flex-direction: column;
