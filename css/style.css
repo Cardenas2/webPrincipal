@@ -246,4 +246,9 @@ figure {
   font-weight: 400;
   columns: #002019; }
 
+.boton {
+  width: 92px;
+  height: 32px;
+  background-color: #00B389; }
+
 /*# sourceMappingURL=style.css.map */
