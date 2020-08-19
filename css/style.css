@@ -249,6 +249,9 @@ figure {
 .boton {
   width: 92px;
   height: 32px;
-  background-color: #00B389; }
+  line-height: 32px;
+  color: #ffffff;
+  background-color: #F5460C;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
