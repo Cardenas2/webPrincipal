@@ -1,6 +1,7 @@
 .portafolio{
     text-align: center;
     padding:4rem 0;
+    
     &__text{
         width: 82%;
         margin:0 auto;
@@ -11,15 +12,6 @@
         grid-gap:1.5rem;
         grid-template-columns: repeat(3,1fr);
         // grid-template-rows: repeat(3,1fr);
-        @include media(desktop-s){
-            padding: 0 1em;
-        }
-        @include media(desktop-s){
-            grid-template-columns: repeat(2,1fr);
-        }
-        @include media(phone-m){
-            grid-template-columns: 1fr;
-        }
     }
     &__item{
         display: flex;
