@@ -1,7 +1,7 @@
 .portafolio{
     text-align: center;
     padding:4rem 0;
-    background-color: crimson;
+    
     @include media(desktop-s){
         padding: 3rem 1rem;
     }
@@ -50,6 +50,10 @@
     font-size: 2.5rem;
     line-height: 40px;
     font-weight: 500;
+    @include media(desktop-s){
+        font-size: 2.1rem;
+    }
+
 }
 .parrafo1{
     font-size: 1rem;
