@@ -65,5 +65,8 @@
 .titulo3{
     font-size: 2rem;
     font-weight: 400;
-    columns: $color4
+    columns: $color4;
+    @include media(desktop-s){
+        font-size: 1.6rem;
+    }
 }

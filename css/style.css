@@ -248,5 +248,8 @@ figure {
   font-size: 2rem;
   font-weight: 400;
   columns: #002019; }
+  @media only screen and (max-width: 992px) {
+    .titulo3 {
+      font-size: 1.6rem; } }
 
 /*# sourceMappingURL=style.css.map */
