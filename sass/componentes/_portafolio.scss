@@ -11,6 +11,9 @@
         grid-gap:1.5rem;
         grid-template-columns: repeat(3,1fr);
         // grid-template-rows: repeat(3,1fr);
+        @include media(desktop-s){
+            padding: 0 1em;
+        }
         
     }
     &__item{

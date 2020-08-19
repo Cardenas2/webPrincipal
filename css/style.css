@@ -203,6 +203,9 @@ figure {
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr); }
+    @media only screen and (max-width: 992px) {
+      .portafolio__trabajos {
+        padding: 0 1em; } }
   .portafolio__item {
     display: flex;
     flex-direction: column;
