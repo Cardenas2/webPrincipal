@@ -268,10 +268,9 @@ figure {
   padding: 2rem;
   text-align: center; }
   .clientes__grupo {
-    background-color: cyan;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: darkblue; }
 
 .titulo2--color {
   color: #ffffff;
