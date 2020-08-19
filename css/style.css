@@ -270,7 +270,17 @@ figure {
   .clientes__grupo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: darkblue; }
+    grid-gap: 30px; }
+  .clientes__item {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgoldenrod;
+    justify-content: center;
+    align-items: center; }
+  .clientes__icono {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff; }
 
 .titulo2--color {
   color: #ffffff;
