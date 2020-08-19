@@ -5,13 +5,20 @@
     &__grupo{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap:30px
+        grid-gap:30px;
+        @include media(phone-m){
+            grid-template-columns: 1fr;
+        }
+        
     }
     &__item{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        @include media(phone-m){
+            margin-bottom: 2rem;;
+        }
     }
     &__icono{
         width: 80px;

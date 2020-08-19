@@ -271,11 +271,17 @@ figure {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px; }
+    @media only screen and (max-width: 425px) {
+      .clientes__grupo {
+        grid-template-columns: 1fr; } }
   .clientes__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    @media only screen and (max-width: 425px) {
+      .clientes__item {
+        margin-bottom: 2rem; } }
   .clientes__icono {
     width: 80px;
     height: 80px;
