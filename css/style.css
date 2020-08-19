@@ -299,9 +299,11 @@ figure {
   color: #ffffff; }
 
 .footer {
-  padding: 3rem 0;
+  padding: 2rem 0;
+  background-color: #ffffff;
   text-align: center;
   display: grid;
+  max-height: 150px;
   grid-template-rows: repeat(2, 1fr); }
   .footer__grupoSocialMedia {
     display: flex;
@@ -309,11 +311,14 @@ figure {
     justify-content: space-around;
     margin-top: 1rem; }
   .footer__item {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 38px;
+    height: 38px;
+    line-height: 42px;
     border-radius: 50%;
     margin: 0 1rem;
     background: linear-gradient(-48deg, #00B389, #5CCEB3); }
+  .footer__icono {
+    font-size: 1.2rem;
+    color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
