@@ -19,6 +19,9 @@
         @include media(tablet){
             grid-template-columns: repeat(2,1fr);
         }
+        @include media(phone-m){
+            grid-template-columns: 1fr;
+        }
     }
     &__item{
         display: flex;
