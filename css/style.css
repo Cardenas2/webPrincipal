@@ -314,6 +314,6 @@ figure {
     line-height: 40px;
     border-radius: 50%;
     margin: 0 1rem;
-    background-color: #F5460C; }
+    background: linear-gradient(-48deg, #00B389, #5CCEB3); }
 
 /*# sourceMappingURL=style.css.map */
