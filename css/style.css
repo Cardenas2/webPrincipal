@@ -298,6 +298,9 @@ figure {
 .parrafo1--color {
   color: #ffffff; }
 
+.boton-link {
+  text-decoration: none; }
+
 .footer {
   padding: 2rem 0;
   background-color: #ffffff;
