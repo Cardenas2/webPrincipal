@@ -7,8 +7,12 @@
         height: auto;
     }
     &__textPrincipal{
+        width: 640px;
+        height: 270px;
+        padding: 1rem 3rem;
+        background-color: $color8;
         position: absolute;
-        top:0;
-        right: 0;
+        bottom:2rem;
+        left: 40%;
     }
 }

@@ -333,8 +333,12 @@ figure {
     width: 630px;
     height: auto; }
   .acerca__textPrincipal {
+    width: 640px;
+    height: 270px;
+    padding: 1rem 3rem;
+    background-color: #ffffff;
     position: absolute;
-    top: 0;
-    right: 0; }
+    bottom: 2rem;
+    left: 40%; }
 
 /*# sourceMappingURL=style.css.map */
