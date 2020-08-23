@@ -328,17 +328,17 @@ figure {
 .acerca {
   position: relative;
   height: auto;
-  background-color: darkkhaki; }
+  box-sizing: border-box; }
   .acerca__img {
     width: 630px;
     height: auto; }
   .acerca__textPrincipal {
     width: 640px;
-    height: 270px;
-    padding: 1rem 3rem;
+    padding: 2.1rem 3.6rem;
     background-color: #ffffff;
     position: absolute;
     bottom: 2rem;
-    left: 42%; }
+    left: 42%;
+    box-shadow: 0px 6px 8px rgba(0, 32, 25, 0.4); }
 
 /*# sourceMappingURL=style.css.map */

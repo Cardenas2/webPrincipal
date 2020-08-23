@@ -1,18 +1,19 @@
 .acerca{
     position: relative;
     height:auto;
-    background-color: darkkhaki;
+    box-sizing: border-box;
+
     &__img{
         width: 630px;
         height: auto;
     }
     &__textPrincipal{
         width: 640px;
-        height: 270px;
-        padding: 1rem 3rem;
+        padding: 2.1rem 3.6rem;
         background-color: $color8;
         position: absolute;
         bottom:2rem;
         left: 42%;
+        box-shadow: 0px 6px 8px rgba($color4, .4);
     }
 }
