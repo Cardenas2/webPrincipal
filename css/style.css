@@ -338,7 +338,8 @@ figure {
     background-color: #ffffff;
     position: absolute;
     bottom: 2rem;
-    left: 42%;
-    box-shadow: 0px 6px 8px rgba(0, 32, 25, 0.4); }
+    left: 40%;
+    box-shadow: 0px 6px 8px rgba(0, 32, 25, 0.4);
+    border-radius: 0px 16px 16px 0px; }
 
 /*# sourceMappingURL=style.css.map */
