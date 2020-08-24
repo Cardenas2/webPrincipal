@@ -1,10 +1,14 @@
 .acerca{
-    background-color: darkmagenta;
+   
     height: 570px;
     position: relative;
     @include media(desktop-m){
         height: 450px;
     }
+    @include media(tablet){
+       height: 350px;
+    }
+    
     &__img{
         width: 600px;
         height:100%;
@@ -12,6 +16,9 @@
         object-position:center;
         @include media(desktop-m){
             width: 45%;
+        }
+        @include media(tablet){
+            width: 100%;
         }
     }
     &__textPrincipal{
@@ -28,6 +35,15 @@
             width:560px;
             top:35%;
             left: 41%;
+        }
+        @include media(tablet){
+            position: relative;
+            margin:0 auto;
+            width: 90%;
+            left:.2rem;
+            top:-110%;
+            z-index: 10;
+            border-radius: 16px 16px 0px 0px;
         }
     }
 
