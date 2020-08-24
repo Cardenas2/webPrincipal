@@ -10,10 +10,12 @@
     }
     &__textPrincipal{
         position: absolute;
-        width: 45%;
+        width: 640px;
         top:50%;
-        right: 2rem;
-        background-color:#0ff;
+        left: 41%;
+        bottom: 2rem;
+        background-color:$color8;
+        padding: 2rem 3rem 2.3rem;
     }
 
 }
