@@ -329,12 +329,20 @@ figure {
   position: relative;
   height: auto;
   box-sizing: border-box; }
+  @media only screen and (max-width: 767px) {
+    .acerca {
+      width: 100%;
+      height: 350px; } }
   .acerca__img {
     width: 630px;
     height: auto; }
     @media only screen and (max-width: 992px) {
       .acerca__img {
         width: 450px; } }
+    @media only screen and (max-width: 767px) {
+      .acerca__img {
+        width: 100%;
+        height: auto; } }
   .acerca__textPrincipal {
     width: 640px;
     padding: 2.1rem 3.6rem;
@@ -349,5 +357,9 @@ figure {
         width: 520px;
         bottom: 1rem;
         left: 42%; } }
+    @media only screen and (max-width: 767px) {
+      .acerca__textPrincipal {
+        width: 400px;
+        left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
