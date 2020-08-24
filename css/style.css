@@ -328,5 +328,7 @@ figure {
 .acerca {
   background-color: darkmagenta;
   height: 570px; }
+  .acerca__img {
+    height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
