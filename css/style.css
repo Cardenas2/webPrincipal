@@ -372,5 +372,8 @@ figure {
 
 .conocimiento {
   padding: 3rem 0; }
+  .conocimiento__grupo {
+    background-color: aqua;
+    margin: 3rem 1rem; }
 
 /*# sourceMappingURL=style.css.map */
