@@ -332,6 +332,9 @@ figure {
   .acerca__img {
     width: 630px;
     height: auto; }
+    @media only screen and (max-width: 992px) {
+      .acerca__img {
+        width: 450px; } }
   .acerca__textPrincipal {
     width: 640px;
     padding: 2.1rem 3.6rem;
@@ -341,5 +344,10 @@ figure {
     left: 40%;
     box-shadow: 0px 6px 8px rgba(0, 32, 25, 0.4);
     border-radius: 0px 16px 16px 0px; }
+    @media only screen and (max-width: 992px) {
+      .acerca__textPrincipal {
+        width: 520px;
+        bottom: 1rem;
+        left: 42%; } }
 
 /*# sourceMappingURL=style.css.map */
