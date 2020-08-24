@@ -327,8 +327,17 @@ figure {
 
 .acerca {
   background-color: darkmagenta;
-  height: 570px; }
+  height: 570px;
+  position: relative; }
   .acerca__img {
-    height: 100%; }
+    height: 100%;
+    object-fit: cover;
+    object-position: left center; }
+  .acerca__textPrincipal {
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    right: 2rem;
+    background-color: #0ff; }
 
 /*# sourceMappingURL=style.css.map */

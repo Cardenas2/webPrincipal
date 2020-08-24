@@ -1,8 +1,19 @@
 .acerca{
     background-color: darkmagenta;
     height: 570px;
+    position: relative;
+
     &__img{
         height:100%;
+        object-fit: cover;
+        object-position: left center;
+    }
+    &__textPrincipal{
+        position: absolute;
+        width: 45%;
+        top:50%;
+        right: 2rem;
+        background-color:#0ff;
     }
 
 }
