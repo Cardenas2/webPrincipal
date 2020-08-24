@@ -16,8 +16,7 @@ h1,h2,h3,h4{
     color:$color3;
 }
 .container {
-    max-width: 1000px;
-    position: relative;
+    max-width: 1000px;position: relative;
     /* width: 100% lo reemplaza flex:1; */
     flex: 1;
     margin: 0 auto;
