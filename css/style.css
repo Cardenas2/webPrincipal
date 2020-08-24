@@ -335,7 +335,7 @@ figure {
     .acerca {
       height: 350px; } }
   .acerca__img {
-    width: 600px;
+    width: 690px;
     height: 100%;
     object-fit: cover;
     object-position: center; }
@@ -349,7 +349,7 @@ figure {
     position: absolute;
     width: 680px;
     top: 50%;
-    left: 39%;
+    left: 45%;
     bottom: 2rem;
     background-color: #ffffff;
     padding: 2.1rem 3rem;
@@ -369,5 +369,8 @@ figure {
         top: -110%;
         z-index: 10;
         border-radius: 16px 16px 0px 0px; } }
+
+.conocimiento {
+  padding: 3rem 0; }
 
 /*# sourceMappingURL=style.css.map */

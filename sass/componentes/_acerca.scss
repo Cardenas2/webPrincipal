@@ -10,7 +10,7 @@
     }
     
     &__img{
-        width: 600px;
+        width: 690px;
         height:100%;
         object-fit: cover;
         object-position:center;
@@ -25,7 +25,7 @@
         position: absolute;
         width: 680px;
         top:50%;
-        left: 39%;
+        left: 45%;
         bottom: 2rem;
         background-color:$color8;
         padding: 2.1rem 3rem;
@@ -39,7 +39,7 @@
         @include media(tablet){
             position: relative;
             margin:0 auto;
-            width: 90%;
+            width:90%;
             left:.2rem;
             top:-110%;
             z-index: 10;
