@@ -373,6 +373,8 @@ figure {
 .conocimiento {
   padding: 3rem 0; }
   .conocimiento__grupo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     background-color: aqua;
     margin: 3rem 1rem; }
 
