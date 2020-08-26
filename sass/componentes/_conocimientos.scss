@@ -1,20 +1,3 @@
 .conocimiento{
     padding: 3rem 0;
-    &__grupo{
-       display: grid;
-       grid-gap:1rem;
-       grid-template-columns: repeat(5, 1fr);
-       background-color: aqua; 
-       margin:3rem 1rem;
-    }
-    &__item{
-        align-self: center;
-        text-align: center;
-        background-color: blueviolet;
-    }
-    &__barraCircular{
-        width: 100%;
-        height: 100px;
-        background-color: chocolate;
-    }
 }
