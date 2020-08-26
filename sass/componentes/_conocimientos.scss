@@ -19,6 +19,7 @@
     @include media(phone-m){
         grid-template-columns: 1fr;
     }
+    
     &__item:nth-child(3){
         padding-left: 3.4rem;
         // border-right: 1px solid #333;
