@@ -371,12 +371,19 @@ figure {
         border-radius: 16px 16px 0px 0px; } }
 
 .conocimiento {
-  padding: 3rem 0;
-  background-color: chocolate; }
+  padding: 3rem 0; }
 
 .caracteristicas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  background-color: cornsilk; }
+  grid-template-columns: repeat(3, 1fr); }
+  .caracteristicas__indiv {
+    margin: 1.5rem 0; }
+
+.text-short {
+  line-height: 21px;
+  columns: #002019; }
+
+.text-short-interlineado {
+  padding-bottom: .4rem; }
 
 /*# sourceMappingURL=style.css.map */
