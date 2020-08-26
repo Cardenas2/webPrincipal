@@ -376,6 +376,8 @@ figure {
 .caracteristicas {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
+  .caracteristicas__item:nth-child(3) {
+    padding-left: 3.4rem; }
   .caracteristicas__indiv {
     margin: 1.5rem 0; }
 
@@ -385,5 +387,9 @@ figure {
 
 .text-short-interlineado {
   padding-bottom: .4rem; }
+
+.titulo4 {
+  font-weight: 600;
+  line-height: 28px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,9 +5,14 @@
 .caracteristicas{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
+    &__item:nth-child(3){
+        padding-left: 3.4rem;
+        // border-right: 1px solid #333;
+    }
     &__indiv{
         margin:1.5rem 0;
     }
+
  }
  .text-short{
      line-height: 21px;
@@ -15,4 +20,8 @@
  }
  .text-short-interlineado{
     padding-bottom: .4rem;
+ }
+ .titulo4{
+     font-weight: 600;
+     line-height: 28px;
  }
