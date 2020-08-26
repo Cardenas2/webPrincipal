@@ -45,6 +45,11 @@
             z-index: 10;
             border-radius: 16px 16px 0px 0px;
         }
+        @include media(phone-m){
+            padding: 1.5rem;
+            top:-128%;
+            
+        }
     }
 
 }
