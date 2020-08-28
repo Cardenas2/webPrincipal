@@ -381,10 +381,11 @@ figure {
   grid-template-columns: repeat(3, 1fr); }
   .datosPersonales__info {
     display: flex;
+    margin: 2rem 0;
     flex-direction: column;
     justify-content: start; }
-  .datosPersonales__info {
-    margin: 2rem 0; }
+  .datosPersonales .titulo4 {
+    line-height: 1.5rem; }
 
 .experiencia {
   padding: 2rem 0;

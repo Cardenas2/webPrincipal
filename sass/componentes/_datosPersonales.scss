@@ -6,14 +6,17 @@
     grid-template-columns:repeat(3, 1fr);
     &__info{
         display: flex;
+        margin:2rem 0;
         flex-direction: column;
         justify-content: start;
         
     }
-    &__info{
-        margin:2rem 0;
+    &__indiv{
+        // @extend .portafolio__text-short;
     }
    
-
+    .titulo4{
+        line-height: 1.5rem;
+    }
 }
 
