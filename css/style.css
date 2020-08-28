@@ -378,11 +378,13 @@ figure {
   padding: 2rem 0;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: 1fr 2fr; }
-  .datosPersonales__item {
+  grid-template-columns: repeat(3, 1fr); }
+  .datosPersonales__info {
     display: flex;
     flex-direction: column;
     justify-content: start; }
+  .datosPersonales__info {
+    margin: 2rem 0; }
 
 .experiencia {
   padding: 2rem 0;
