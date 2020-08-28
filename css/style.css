@@ -376,14 +376,13 @@ figure {
 
 .datosPersonales {
   padding: 2rem 0;
-  background-color: crimson;
   display: grid;
   grid-gap: 1rem;
-  grid-template-rows: repeat(2, 1fr); }
-
-.datosPersonales__item {
-  display: flex;
-  flex-direction: column; }
+  grid-template-columns: 1fr 2fr; }
+  .datosPersonales__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
 
 .experiencia {
   padding: 2rem 0;
