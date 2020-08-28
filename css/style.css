@@ -374,6 +374,17 @@ figure {
         padding: 1.5rem;
         top: -128%; } }
 
+.datosPersonales {
+  padding: 2rem 0;
+  background-color: crimson;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: repeat(2, 1fr); }
+
+.datosPersonales__item {
+  display: flex;
+  flex-direction: column; }
+
 .experiencia {
   padding: 2rem 0;
   background-color: #F5460C; }
