@@ -377,7 +377,7 @@ figure {
 .datosPersonales {
   padding: 2rem 0;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 0 4rem;
   grid-template-columns: repeat(3, 1fr); }
   .datosPersonales__info {
     display: flex;
