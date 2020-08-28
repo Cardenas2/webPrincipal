@@ -1,10 +1,10 @@
 .conocimiento{
     padding: 3rem 0;
 }
-
 .caracteristicas{
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns:1fr 1.5fr 2fr;
+    grid-gap:0 4rem;
     @include media(desktop-m){
         margin-left:.8rem;
     }
@@ -13,22 +13,16 @@
     }
     @include media(tablet){
         margin-top:14rem;
+        grid-gap:2rem;
         grid-template-columns:repeat(2,1fr);
         grid-template-rows:repeat(2,1fr);
     }
     @include media(phone-m){
         grid-template-columns: 1fr;
-    }
-    
-    &__item:nth-child(3){
-        padding-left: 3.4rem;
-        // border-right: 1px solid #333;
-        @include media(tablet){
-            padding-left: 0;
-        }
+        grid-gap:1rem;
     }
     &__indiv{
-        margin:1.5rem 0;
+        margin:1rem 0;
     }
 
  }

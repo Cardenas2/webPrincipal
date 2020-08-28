@@ -379,7 +379,8 @@ figure {
 
 .caracteristicas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: 1fr 1.5fr 2fr;
+  grid-gap: 0 4rem; }
   @media only screen and (max-width: 1024px) {
     .caracteristicas {
       margin-left: .8rem; } }
@@ -389,18 +390,15 @@ figure {
   @media only screen and (max-width: 767px) {
     .caracteristicas {
       margin-top: 14rem;
+      grid-gap: 2rem;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr); } }
   @media only screen and (max-width: 425px) {
     .caracteristicas {
-      grid-template-columns: 1fr; } }
-  .caracteristicas__item:nth-child(3) {
-    padding-left: 3.4rem; }
-    @media only screen and (max-width: 767px) {
-      .caracteristicas__item:nth-child(3) {
-        padding-left: 0; } }
+      grid-template-columns: 1fr;
+      grid-gap: 1rem; } }
   .caracteristicas__indiv {
-    margin: 1.5rem 0; }
+    margin: 1rem 0; }
 
 .text-short {
   line-height: 21px;
