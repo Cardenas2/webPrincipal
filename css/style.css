@@ -374,43 +374,6 @@ figure {
         padding: 1.5rem;
         top: -128%; } }
 
-.conocimiento {
-  padding: 3rem 0; }
-
-.caracteristicas {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr 2fr;
-  grid-gap: 0 4rem; }
-  @media only screen and (max-width: 1024px) {
-    .caracteristicas {
-      margin-left: .8rem; } }
-  @media only screen and (max-width: 992px) {
-    .caracteristicas {
-      margin-left: 2rem; } }
-  @media only screen and (max-width: 767px) {
-    .caracteristicas {
-      margin-top: 14rem;
-      grid-gap: 2rem;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr); } }
-  @media only screen and (max-width: 425px) {
-    .caracteristicas {
-      grid-template-columns: 1fr;
-      grid-gap: 1rem; } }
-  .caracteristicas__indiv {
-    margin: 1rem 0; }
-
-.text-short {
-  line-height: 21px;
-  columns: #002019; }
-
-.text-short-interlineado {
-  padding-bottom: .4rem; }
-
-.titulo4 {
-  font-weight: 600;
-  line-height: 28px; }
-
 .experiencia {
   padding: 2rem 0;
   background-color: #F5460C; }
