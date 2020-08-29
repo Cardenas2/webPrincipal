@@ -228,7 +228,7 @@ figure {
   .portafolio__img {
     width: 100%;
     box-shadow: 0px 6px 8px rgba(0, 32, 25, 0.4); }
-  .portafolio__text-short {
+  .portafolio__text-short, .datosPersonales__indiv {
     color: #002019;
     text-align: left;
     line-height: 21px; }
@@ -377,15 +377,17 @@ figure {
 .datosPersonales {
   padding: 2rem 0;
   display: grid;
-  grid-gap: 0 4rem;
+  grid-gap: 0 3.5rem;
   grid-template-columns: repeat(3, 1fr); }
   .datosPersonales__info {
     display: flex;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     flex-direction: column;
     justify-content: start; }
   .datosPersonales .titulo4 {
-    line-height: 1.5rem; }
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    padding-bottom: .2rem; }
 
 .experiencia {
   padding: 2rem 0;
