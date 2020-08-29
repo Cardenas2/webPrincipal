@@ -1,7 +1,7 @@
 .experiencia{
     padding: 2rem 0;
     background-color: $color6;
-    color:$color8;
+    @extend .titulo3--color;
     &__info{
         text-align: left;
         color:$color8;
@@ -21,7 +21,7 @@
     font-weight: 500;
 }
 .titulo5--color{
-    color:$color8;
+    @extend .titulo3--color;
     
 }
 .datosPersonales__indiv--color{

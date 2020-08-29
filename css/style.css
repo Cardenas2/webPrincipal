@@ -408,8 +408,7 @@ figure {
 
 .experiencia {
   padding: 2rem 0;
-  background-color: #F5460C;
-  color: #ffffff; }
+  background-color: #F5460C; }
   .experiencia__info {
     text-align: left;
     color: #ffffff; }
@@ -418,7 +417,7 @@ figure {
   background-color: darkgoldenrod;
   display: grid; }
 
-.titulo3--color, .datosPersonales__indiv--color {
+.titulo3--color, .experiencia, .titulo5--color, .datosPersonales__indiv--color {
   color: #ffffff; }
 
 .titulo5 {
@@ -426,9 +425,6 @@ figure {
   font-size: 18px;
   padding-bottom: 1rem;
   font-weight: 500; }
-
-.titulo5--color {
-  color: #ffffff; }
 
 .datosPersonales__indiv--color {
   line-height: 24px; }
