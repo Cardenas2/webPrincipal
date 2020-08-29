@@ -1,13 +1,30 @@
 .experiencia{
     padding: 2rem 0;
     background-color: $color6;
+    color:$color8;
     &__info{
         text-align: left;
+        color:$color8;
     }
+}
+.experienciaProfesional{
+    background-color: darkgoldenrod;
+    display: grid;
 }
 .titulo3--color{
     color:$color8;
 }
+.titulo5{
+    font-family: $fuente-Uno;
+    font-size: 18px;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
 .titulo5--color{
+    color:$color8;
+    
+}
+.datosPersonales__indiv--color{
+    line-height:24px;
     @extend .titulo3--color;
 }
