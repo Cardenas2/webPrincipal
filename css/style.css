@@ -375,7 +375,7 @@ figure {
         top: -128%; } }
 
 .datosPersonales {
-  padding: 2rem 0;
+  padding: 3rem 0;
   display: grid;
   grid-gap: 2rem 3.5rem;
   grid-template-columns: repeat(3, 1fr); }
@@ -403,7 +403,8 @@ figure {
   .datosPersonales .titulo4 {
     font-size: 1.25rem;
     line-height: 1.25rem;
-    padding-bottom: .2rem; }
+    padding-bottom: .2rem;
+    font-weight: 500; }
 
 .experiencia {
   padding: 2rem 0;
