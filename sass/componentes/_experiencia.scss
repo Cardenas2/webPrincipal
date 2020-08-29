@@ -1,7 +1,13 @@
 .experiencia{
     padding: 2rem 0;
     background-color: $color6;
+    &__info{
+        text-align: left;
+    }
 }
 .titulo3--color{
     color:$color8;
+}
+.titulo5--color{
+    @extend .titulo3--color;
 }

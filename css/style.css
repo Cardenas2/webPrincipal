@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px; }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
   padding: 0;
   color: #00775B; }
@@ -409,8 +409,10 @@ figure {
 .experiencia {
   padding: 2rem 0;
   background-color: #F5460C; }
+  .experiencia__info {
+    text-align: left; }
 
-.titulo3--color {
+.titulo3--color, .titulo5--color {
   color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
