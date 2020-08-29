@@ -2,10 +2,23 @@
     padding:2rem 0;
     // background-color: crimson;
     display: grid;
-    grid-gap:0 3.5rem ;
+    grid-gap:2rem 3.5rem ;
     grid-template-columns:repeat(3, 1fr);
-    &__item{
-
+    @include media(desktop-m){
+        padding-left:3rem;
+    }
+    @include media(tablet){
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top:17rem;
+    }
+    @include media(phone-m){
+        grid-template-columns:1fr;
+        padding-left:1.2rem;
+    }
+    @include media(phone){
+        grid-template-columns:1fr;
+        padding-top:20rem;
     }
     &__info{
         display: flex;

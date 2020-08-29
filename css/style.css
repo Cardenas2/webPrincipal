@@ -377,8 +377,24 @@ figure {
 .datosPersonales {
   padding: 2rem 0;
   display: grid;
-  grid-gap: 0 3.5rem;
+  grid-gap: 2rem 3.5rem;
   grid-template-columns: repeat(3, 1fr); }
+  @media only screen and (max-width: 1024px) {
+    .datosPersonales {
+      padding-left: 3rem; } }
+  @media only screen and (max-width: 767px) {
+    .datosPersonales {
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr);
+      padding-top: 17rem; } }
+  @media only screen and (max-width: 425px) {
+    .datosPersonales {
+      grid-template-columns: 1fr;
+      padding-left: 1.2rem; } }
+  @media only screen and (max-width: 375px) {
+    .datosPersonales {
+      grid-template-columns: 1fr;
+      padding-top: 20rem; } }
   .datosPersonales__info {
     display: flex;
     margin: 1.5rem 0;
