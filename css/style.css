@@ -14,7 +14,8 @@ h1, h2, h3, h4 {
 .titulo1 {
   font-size: 4.7rem;
   line-height: 4.5rem;
-  color: #00775B; }
+  color: #00775B;
+  font-weight: 600; }
   @media only screen and (max-width: 1480px) {
     .titulo1 {
       font-size: 4rem;
@@ -199,9 +200,13 @@ figure {
         margin-left: 2rem; } }
     @media only screen and (max-width: 425px) {
       .hero__text {
+        width: 85%;
         align-self: flex-end;
         margin-bottom: 1rem;
         margin-left: 1rem; } }
+    @media only screen and (max-width: 375px) {
+      .hero__text {
+        width: 90%; } }
   .hero__saludo {
     font-size: 1.25rem;
     color: #009471; }
@@ -219,5 +224,8 @@ figure {
     @media only screen and (max-width: 1480px) {
       .hero__icon {
         font-size: 1.5rem; } }
+    @media only screen and (max-width: 1024px) {
+      .hero__icon {
+        font-size: 1rem; } }
 
 /*# sourceMappingURL=style.css.map */

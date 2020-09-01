@@ -36,11 +36,14 @@
            margin-left: 2rem;
         }
         @include media(phone-m){
-            // width: 90%;
+            width: 85%;
             align-self:flex-end;
             margin-bottom: 1rem;
             margin-left: 1rem;
          }
+        @include media(phone){
+            width: 90%;
+        }
 
     }
     &__saludo{
@@ -62,6 +65,9 @@
         color:$color8;
         @include media(desktop-l){
             font-size: 1.5rem;
+        }
+        @include media(desktop-m){
+            font-size: 1rem;
         }
     }
 }
