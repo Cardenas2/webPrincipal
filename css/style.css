@@ -30,8 +30,7 @@ h1, h2, h3, h4 {
 .principal {
   width: 100%;
   background-size: cover;
-  height: 886px;
-  background-color: darkgoldenrod; }
+  height: 886px; }
 
 .header {
   background-color: transparent;
@@ -134,9 +133,10 @@ figure {
   background-position: center right;
   display: flex;
   align-items: center;
-  justify-content: start; }
+  justify-content: start;
+  box-shadow: 0 4px 24px rgba(0, 32, 25, 0.4); }
   .hero__text {
-    margin-left: 7rem;
+    margin-left: 10rem;
     width: 800px; }
   .hero__saludo {
     font-size: 1.25rem;
