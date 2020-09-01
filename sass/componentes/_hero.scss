@@ -1,6 +1,6 @@
 .hero{
     background-image:url(../img/Hero.jpg);
-    height: 570px;
+    height: 840px;
     background-size: cover;
     background-position: right bottom;
     display: flex;
@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: start;
     box-shadow: 0px 6px 8px rgba($color4, .4);
+    @include media(desktop-xl){
+        height: 560px;
+    }
     @include media(desktop-s){
         height: 400px;
     }

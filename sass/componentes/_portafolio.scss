@@ -14,7 +14,7 @@
         margin-top:2rem;
         display: grid;
         grid-gap:1.5rem;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
         // grid-template-rows: repeat(3,1fr);
         @include media(tablet){
             grid-template-columns: repeat(2,1fr);

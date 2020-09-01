@@ -13,9 +13,8 @@ h1, h2, h3, h4 {
   color: #00775B; }
 
 .container {
-  max-width: 1000px;
+  max-width: 1600px;
   position: relative;
-  /* width: 100% lo reemplaza flex:1; */
   flex: 1;
   margin: 0 auto;
   display: inherit;
@@ -23,6 +22,9 @@ h1, h2, h3, h4 {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit; }
+  @media only screen and (max-width: 1480px) {
+    .container {
+      max-width: 1000px; } }
 
 .header {
   background-color: transparent;
@@ -119,7 +121,7 @@ figure {
 
 .hero {
   background-image: url(../img/Hero.jpg);
-  height: 570px;
+  height: 840px;
   background-size: cover;
   background-position: right bottom;
   display: flex;
@@ -127,6 +129,9 @@ figure {
   align-items: center;
   justify-content: start;
   box-shadow: 0px 6px 8px rgba(0, 32, 25, 0.4); }
+  @media only screen and (max-width: 1780px) {
+    .hero {
+      height: 560px; } }
   @media only screen and (max-width: 992px) {
     .hero {
       height: 400px; } }
@@ -207,7 +212,7 @@ figure {
     margin-top: 2rem;
     display: grid;
     grid-gap: 1.5rem;
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(4, 1fr); }
     @media only screen and (max-width: 767px) {
       .portafolio__trabajos {
         grid-template-columns: repeat(2, 1fr); } }

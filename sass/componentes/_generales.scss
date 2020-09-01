@@ -16,8 +16,8 @@ h1,h2,h3,h4{
     color:$color3;
 }
 .container {
-    max-width: 1000px;position: relative;
-    /* width: 100% lo reemplaza flex:1; */
+    max-width:1600px;
+    position: relative;
     flex: 1;
     margin: 0 auto;
     display: inherit;
@@ -25,5 +25,8 @@ h1,h2,h3,h4{
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+    @include media(desktop-l){
+        max-width:1000px;
+    }
    
   }
