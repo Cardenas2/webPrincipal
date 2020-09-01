@@ -26,6 +26,9 @@ h1, h2, h3, h4 {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit; }
+  @media only screen and (max-width: 1480px) {
+    .container {
+      max-width: 1200px; } }
 
 .principal {
   width: 100%;
@@ -35,7 +38,10 @@ h1, h2, h3, h4 {
 .button {
   width: 45px;
   height: 45px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .header {
   background-color: transparent;
@@ -151,5 +157,8 @@ figure {
     bottom: 2rem;
     left: 50%;
     background-color: #00B389; }
+  .hero__icon {
+    font-size: 2rem;
+    color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
