@@ -26,7 +26,8 @@ h1, h2, h3, h4 {
 .principal {
   width: 100%;
   background-size: cover;
-  height: 900px; }
+  height: 886px;
+  background-color: darkgoldenrod; }
 
 .header {
   background-color: transparent;
@@ -126,6 +127,9 @@ figure {
   height: 886px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center right; }
+  background-position: center right;
+  display: flex;
+  align-items: center;
+  justify-content: start; }
 
 /*# sourceMappingURL=style.css.map */
