@@ -7,4 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: start;
+    &__text{
+        margin-left:7rem;
+        width: 800px;
+    }
+    &__saludo{
+        font-size: 1.25rem;
+        color:$color1;
+    }
 }

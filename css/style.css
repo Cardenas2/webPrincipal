@@ -9,7 +9,11 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
-  padding: 0;
+  padding: 0; }
+
+.titulo1 {
+  font-size: 4.7rem;
+  line-height: 4.5rem;
   color: #00775B; }
 
 .container {
@@ -131,5 +135,11 @@ figure {
   display: flex;
   align-items: center;
   justify-content: start; }
+  .hero__text {
+    margin-left: 7rem;
+    width: 800px; }
+  .hero__saludo {
+    font-size: 1.25rem;
+    color: #009471; }
 
 /*# sourceMappingURL=style.css.map */
