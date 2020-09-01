@@ -23,6 +23,13 @@ h1, h2, h3, h4 {
     .titulo1 {
       font-size: 3.5rem;
       line-height: 3.2rem; } }
+  @media only screen and (max-width: 767px) {
+    .titulo1 {
+      font-size: 3rem; } }
+  @media only screen and (max-width: 425px) {
+    .titulo1 {
+      font-size: 2rem;
+      line-height: 1.9rem; } }
 
 .container {
   max-width: 1600px;
@@ -57,6 +64,9 @@ h1, h2, h3, h4 {
     .button {
       width: 30px;
       height: 30px; } }
+  @media only screen and (max-width: 767px) {
+    .button {
+      display: none; } }
 
 .header {
   background-color: transparent;
@@ -164,17 +174,34 @@ figure {
   @media only screen and (max-width: 1480px) {
     .hero {
       height: 560px; } }
+  @media only screen and (max-width: 767px) {
+    .hero {
+      height: 400px;
+      box-shadow: 0 8px 24px rgba(0, 32, 25, 0.2); } }
+  @media only screen and (max-width: 425px) {
+    .hero {
+      height: 250px; } }
   .hero__text {
     margin-left: 10rem;
     width: 800px; }
     @media only screen and (max-width: 1480px) {
       .hero__text {
         margin-left: 4rem;
-        width: 680px; } }
+        width: 56%; } }
     @media only screen and (max-width: 1024px) {
       .hero__text {
-        margin-left: 1rem;
-        width: 620px; } }
+        margin-left: 1rem; } }
+    @media only screen and (max-width: 767px) {
+      .hero__text {
+        width: 68%;
+        align-self: flex-end;
+        margin-bottom: 2rem;
+        margin-left: 2rem; } }
+    @media only screen and (max-width: 425px) {
+      .hero__text {
+        align-self: flex-end;
+        margin-bottom: 1rem;
+        margin-left: 1rem; } }
   .hero__saludo {
     font-size: 1.25rem;
     color: #009471; }

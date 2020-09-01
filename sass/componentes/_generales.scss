@@ -25,7 +25,15 @@ h1,h2,h3,h4{
         font-size: 3.5rem;
         line-height: 3.2rem;
     }
-}
+    @include media(tablet){
+       font-size: 3rem;
+     }
+     @include media(phone-m){
+        font-size: 2rem;
+        line-height: 1.9rem;
+     }
+ }
+
 .container {
     max-width:1600px;
     position: relative;
@@ -60,5 +68,8 @@ h1,h2,h3,h4{
     @include media(desktop-l){
         width: 30px;
         height: 30px;
+    }
+    @include media(tablet){
+        display: none;
     }
 }

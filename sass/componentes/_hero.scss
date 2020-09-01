@@ -11,17 +11,37 @@
     @include media(desktop-l){
         height: 560px;
     }
+    @include media(tablet){
+        height: 400px;
+        box-shadow: 0 8px 24px rgba($color4, .2);
+     }
+     @include media(phone-m){
+        height: 250px;
+     }
     &__text{
         margin-left:10rem;
         width: 800px;
         @include media(desktop-l){
             margin-left: 4rem;
-            width:680px ;
+            width:56% ;
         }
         @include media(desktop-m){
             margin-left:1rem;
-            width: 620px;
+            
         }
+        @include media(tablet){
+           width: 68%;
+           align-self:flex-end;
+           margin-bottom: 2rem;
+           margin-left: 2rem;
+        }
+        @include media(phone-m){
+            // width: 90%;
+            align-self:flex-end;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+         }
+
     }
     &__saludo{
         font-size: 1.25rem;
