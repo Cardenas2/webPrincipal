@@ -3,8 +3,6 @@
     padding:0;
     box-sizing: border-box;
 }
-
-
 body{
     font-family: $fuente-Uno;
     font-size: $size-1;
@@ -25,10 +23,11 @@ h1,h2,h3,h4{
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
-    @include media(desktop-l){
-        max-width:1000px;
-    }
-    // @include media(desktop-m){
-    //     max-width:1000px;
-    // }
   }
+
+.principal{
+    width: 100%;
+    background: cover;
+    height: 740px;
+    // background-color: darkgoldenrod;
+}
