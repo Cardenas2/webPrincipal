@@ -174,11 +174,11 @@ figure {
   box-shadow: 0 16px 24px rgba(0, 32, 25, 0.2); }
   @media only screen and (max-width: 1480px) {
     .hero {
-      height: 560px; } }
+      height: 560px;
+      box-shadow: 0 8px 16px rgba(0, 32, 25, 0.2); } }
   @media only screen and (max-width: 767px) {
     .hero {
-      height: 400px;
-      box-shadow: 0 8px 24px rgba(0, 32, 25, 0.2); } }
+      height: 400px; } }
   @media only screen and (max-width: 425px) {
     .hero {
       height: 250px; } }
