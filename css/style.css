@@ -32,6 +32,11 @@ h1, h2, h3, h4 {
   background-size: cover;
   height: 886px; }
 
+.button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; }
+
 .header {
   background-color: transparent;
   height: 50px;
@@ -141,5 +146,10 @@ figure {
   .hero__saludo {
     font-size: 1.25rem;
     color: #009471; }
+  .hero .button--down {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    background-color: #00B389; }
 
 /*# sourceMappingURL=style.css.map */

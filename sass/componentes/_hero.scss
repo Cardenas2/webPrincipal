@@ -16,4 +16,11 @@
         font-size: 1.25rem;
         color:$color1;
     }
+    .button--down{
+        position: absolute;
+        bottom: 2rem;
+        left:50%;
+        background-color: $color2;
+        
+    }
 }
