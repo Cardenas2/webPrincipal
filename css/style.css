@@ -15,6 +15,14 @@ h1, h2, h3, h4 {
   font-size: 4.7rem;
   line-height: 4.5rem;
   color: #00775B; }
+  @media only screen and (max-width: 1480px) {
+    .titulo1 {
+      font-size: 4rem;
+      line-height: 3.8rem; } }
+  @media only screen and (max-width: 1024px) {
+    .titulo1 {
+      font-size: 3.5rem;
+      line-height: 3.2rem; } }
 
 .container {
   max-width: 1600px;
@@ -29,6 +37,9 @@ h1, h2, h3, h4 {
   @media only screen and (max-width: 1480px) {
     .container {
       max-width: 1200px; } }
+  @media only screen and (max-width: 1024px) {
+    .container {
+      max-width: 1000px; } }
 
 .principal {
   width: 100%;
@@ -42,6 +53,10 @@ h1, h2, h3, h4 {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media only screen and (max-width: 1480px) {
+    .button {
+      width: 30px;
+      height: 30px; } }
 
 .header {
   background-color: transparent;
@@ -145,13 +160,27 @@ figure {
   display: flex;
   align-items: center;
   justify-content: start;
-  box-shadow: 0 4px 24px rgba(0, 32, 25, 0.4); }
+  box-shadow: 0 16px 24px rgba(0, 32, 25, 0.2); }
+  @media only screen and (max-width: 1480px) {
+    .hero {
+      height: 560px; } }
   .hero__text {
     margin-left: 10rem;
     width: 800px; }
+    @media only screen and (max-width: 1480px) {
+      .hero__text {
+        margin-left: 4rem;
+        width: 680px; } }
+    @media only screen and (max-width: 1024px) {
+      .hero__text {
+        margin-left: 1rem;
+        width: 620px; } }
   .hero__saludo {
     font-size: 1.25rem;
     color: #009471; }
+    @media only screen and (max-width: 1024px) {
+      .hero__saludo {
+        font-size: 1rem; } }
   .hero .button--down {
     position: absolute;
     bottom: 2rem;
@@ -160,5 +189,8 @@ figure {
   .hero__icon {
     font-size: 2rem;
     color: #ffffff; }
+    @media only screen and (max-width: 1480px) {
+      .hero__icon {
+        font-size: 1.5rem; } }
 
 /*# sourceMappingURL=style.css.map */

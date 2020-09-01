@@ -7,14 +7,28 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    box-shadow: 0 4px 24px rgba($color4, .4);
+    box-shadow: 0 16px 24px rgba($color4, .2);
+    @include media(desktop-l){
+        height: 560px;
+    }
     &__text{
         margin-left:10rem;
         width: 800px;
+        @include media(desktop-l){
+            margin-left: 4rem;
+            width:680px ;
+        }
+        @include media(desktop-m){
+            margin-left:1rem;
+            width: 620px;
+        }
     }
     &__saludo{
         font-size: 1.25rem;
         color:$color1;
+        @include media(desktop-m){
+            font-size: 1rem;
+        }
     }
     .button--down{
         position: absolute;
@@ -26,5 +40,8 @@
     &__icon{
         font-size: 2rem;
         color:$color8;
+        @include media(desktop-l){
+            font-size: 1.5rem;
+        }
     }
 }

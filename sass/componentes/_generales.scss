@@ -17,6 +17,14 @@ h1,h2,h3,h4{
     font-size: 4.7rem;
     line-height: 4.5rem;
     color:$color3;
+    @include media(desktop-l){
+        font-size: 4rem;
+        line-height: 3.8rem;
+    }
+    @include media(desktop-m){
+        font-size: 3.5rem;
+        line-height: 3.2rem;
+    }
 }
 .container {
     max-width:1600px;
@@ -30,6 +38,9 @@ h1,h2,h3,h4{
     flex-wrap: inherit;
     @include media(desktop-l){
         max-width:1200px;
+    }
+    @include media(desktop-m){
+        max-width:1000px;
     }
   }
 
@@ -46,4 +57,8 @@ h1,h2,h3,h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    @include media(desktop-l){
+        width: 30px;
+        height: 30px;
+    }
 }
