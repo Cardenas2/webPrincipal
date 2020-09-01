@@ -28,5 +28,7 @@ h1,h2,h3,h4{
     @include media(desktop-l){
         max-width:1000px;
     }
-   
+    // @include media(desktop-m){
+    //     max-width:1000px;
+    // }
   }

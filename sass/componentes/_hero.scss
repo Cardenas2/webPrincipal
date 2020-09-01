@@ -11,6 +11,9 @@
     @include media(desktop-xl){
         height: 560px;
     }
+    @include media(desktop-l){
+        height: 480px;
+    }
     @include media(desktop-s){
         height: 400px;
     }

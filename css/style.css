@@ -132,6 +132,9 @@ figure {
   @media only screen and (max-width: 1780px) {
     .hero {
       height: 560px; } }
+  @media only screen and (max-width: 1480px) {
+    .hero {
+      height: 480px; } }
   @media only screen and (max-width: 992px) {
     .hero {
       height: 400px; } }
@@ -213,6 +216,9 @@ figure {
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr); }
+    @media only screen and (max-width: 1780px) {
+      .portafolio__trabajos {
+        grid-template-columns: repeat(3, 1fr); } }
     @media only screen and (max-width: 767px) {
       .portafolio__trabajos {
         grid-template-columns: repeat(2, 1fr); } }
