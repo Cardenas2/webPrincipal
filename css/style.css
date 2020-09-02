@@ -45,6 +45,9 @@ h1, h2, h3, h4 {
   @media only screen and (max-width: 1480px) {
     .container {
       max-width: 1200px; } }
+  @media only screen and (max-width: 1366px) {
+    .container {
+      max-width: 1000px; } }
   @media only screen and (max-width: 1024px) {
     .container {
       max-width: 1000px; } }
@@ -189,6 +192,9 @@ figure {
       .hero__text {
         margin-left: 4rem;
         width: 56%; } }
+    @media only screen and (max-width: 1366px) {
+      .hero__text {
+        width: 650px; } }
     @media only screen and (max-width: 1024px) {
       .hero__text {
         margin-left: 1rem; } }

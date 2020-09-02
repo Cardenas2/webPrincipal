@@ -22,6 +22,7 @@ h1,h2,h3,h4{
         font-size: 4rem;
         line-height: 3.8rem;
     }
+   
     @include media(desktop-m){
         font-size: 3.5rem;
         line-height: 3.2rem;
@@ -47,6 +48,9 @@ h1,h2,h3,h4{
     flex-wrap: inherit;
     @include media(desktop-l){
         max-width:1200px;
+    }
+    @include  media(desktop-ml){
+        max-width: 1000px;
     }
     @include media(desktop-m){
         max-width:1000px;

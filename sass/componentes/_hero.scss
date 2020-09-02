@@ -26,6 +26,9 @@
             margin-left: 4rem;
             width:56% ;
         }
+        @include  media(desktop-ml){
+            width:650px;
+        }
         @include media(desktop-m){
             margin-left:1rem;
             
