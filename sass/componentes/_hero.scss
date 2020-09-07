@@ -75,3 +75,26 @@
         }
     }
 }
+
+.titulo1{
+    font-size: 4.7rem;
+    line-height: 4.5rem;
+    color:$color3;
+    font-weight: 600;
+    @include media(desktop-l){
+        font-size: 4rem;
+        line-height: 3.8rem;
+    }
+   
+    @include media(desktop-m){
+        font-size: 3.5rem;
+        line-height: 3.2rem;
+    }
+    @include media(tablet){
+       font-size: 3rem;
+     }
+     @include media(phone-m){
+        font-size: 2rem;
+        line-height: 1.9rem;
+     }
+ }
