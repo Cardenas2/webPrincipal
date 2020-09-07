@@ -1,9 +1,16 @@
 .portafolio{
     padding:5rem 0;
     background-color: darkgoldenrod;
+    text-align: center;
     &__grupo{
         display: grid;
         grid-gap: 2.3rem 4rem;
+        background-color: darkmagenta;
         grid-template-columns: repeat(4, 1fr);
     }
 }
+.cajaTrabajo{
+    width:25%;
+}
+
+
