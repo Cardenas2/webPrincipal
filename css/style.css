@@ -235,10 +235,11 @@ figure {
         font-size: 1rem; } }
 
 .portafolio {
-  padding: 3rem 0;
-  background-color: darkgoldenrod;
-  display: grid;
-  grid-gap: 1rem 3rem;
-  grid-template-columns: repeat(4, 1fr); }
+  padding: 5rem 0;
+  background-color: darkgoldenrod; }
+  .portafolio__grupo {
+    display: grid;
+    grid-gap: 2.3rem 4rem;
+    grid-template-columns: repeat(4, 1fr); }
 
 /*# sourceMappingURL=style.css.map */
