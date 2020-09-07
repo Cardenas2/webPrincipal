@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
       max-width: 1000px; } }
   @media only screen and (max-width: 1024px) {
     .container {
-      max-width: 1000px; } }
+      max-width: 900px; } }
 
 .principal {
   width: 100%;
@@ -246,6 +246,13 @@ figure {
     display: grid;
     grid-gap: 4rem 1rem;
     grid-template-columns: repeat(4, 1fr); }
+    @media only screen and (max-width: 1480px) {
+      .portafolio__grupo {
+        grid-template-columns: repeat(3, 1fr); } }
+    @media only screen and (max-width: 1024px) {
+      .portafolio__grupo {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 8rem 2rem; } }
 
 .cajaTexto {
   margin-bottom: 4rem; }
