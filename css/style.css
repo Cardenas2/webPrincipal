@@ -235,6 +235,10 @@ figure {
         font-size: 1rem; } }
 
 .portafolio {
-  background-color: darkgoldenrod; }
+  padding: 3rem 0;
+  background-color: darkgoldenrod;
+  display: grid;
+  grid-gap: 1rem 3rem;
+  grid-template-columns: repeat(4, 1fr); }
 
 /*# sourceMappingURL=style.css.map */
