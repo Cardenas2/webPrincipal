@@ -1,26 +1,37 @@
 .portafolio{
-    padding:5rem 0;
+    padding:4rem 0;
     text-align: center;
     @include media(desktop-ml){
         padding:3rem 0;
     }
     &__grupo{
         display: grid;
-        grid-gap: 4rem 1rem;
+        grid-gap: 6rem 1rem;
         grid-template-columns: repeat(4, 1fr);
         @include media(desktop-l){
             grid-template-columns: repeat(3, 1fr);
+            grid-gap: 4rem 1rem;
+        }
+        @include media(desktop-ml){
+            grid-gap: 1rem;
         }
         @include media(desktop-m){
             grid-template-columns: repeat(2, 1fr);
-            grid-gap: 8rem 2rem;
+            grid-gap:6rem 2rem;
+        }
+        @include media(tablet){
+            grid-gap: 2.5rem 1.5rem;
         }
         @include media(phone-ml){
-            grid-gap: 3rem 1rem;
+            grid-gap: 2rem 1rem;
         }
         @include media(phone-m){
             grid-template-columns:1fr;
-            grid-gap: 6rem 2rem;
+            grid-gap: 4rem;
+        }
+        @include media(phone){
+            grid-template-columns:1fr;
+            grid-gap: 1rem;
         }
     } 
 }
@@ -30,6 +41,13 @@
     @include media(desktop-l){
         margin-bottom: 3rem;
     }
+    
+    @include media(tablet){
+        max-width: 90%;
+        margin:auto;
+        margin-bottom: 3rem;
+    }
+
    
 }
 
@@ -40,6 +58,9 @@
     color:$color3;
     @include media(desktop-ml){
         font-size: 2.5rem;
+    }
+    @include media(phone-m){
+       line-height: 2.5rem;
     }
 }
 .titulo3{
@@ -53,6 +74,7 @@
     height: 346px;
     text-align: left;
     text-decoration: none;
+    
     &__imagen{
         width:100%;
         height: auto;

@@ -89,7 +89,7 @@ figure{
     &__item{
         height: inherit;
         @include media(tablet){
-            height: 88px;
+            height: 76px;
         }
     }
     &__link{
@@ -100,7 +100,7 @@ figure{
         text-decoration: none;
         text-transform: uppercase;
         color:$color1;
-        font-size: 0.875rem;
+        font-size: 0.8rem;
        
         @include media(tablet){
             justify-content: center;

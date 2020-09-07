@@ -5,7 +5,7 @@
 }
 body{
     font-family: $fuente-Uno;
-    font-size: $size-1;
+    font-size: 16px;
 }
 
 h1,h2,h3,h4{
@@ -17,10 +17,13 @@ h1,h2,h3,h4{
     font-size: 1.25rem;
     line-height: 1.75rem;
     color:$color4;
-    @include media(desktop-ml){
-        font-size: 1rem;
+    @include media(desktop-l){
+        font-size:1em;
         line-height: 1.25rem;
     }
+  
+    
+  
 }
 .container {
     max-width:1600px;

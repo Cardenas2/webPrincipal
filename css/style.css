@@ -15,9 +15,9 @@ h1, h2, h3, h4 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: #002019; }
-  @media only screen and (max-width: 1366px) {
+  @media only screen and (max-width: 1480px) {
     .parrafo {
-      font-size: 1rem;
+      font-size: 1em;
       line-height: 1.25rem; } }
 
 .container {
@@ -133,7 +133,7 @@ figure {
     height: inherit; }
     @media only screen and (max-width: 767px) {
       .menu__item {
-        height: 88px; } }
+        height: 76px; } }
   .menu__link {
     display: flex;
     align-items: center;
@@ -142,7 +142,7 @@ figure {
     text-decoration: none;
     text-transform: uppercase;
     color: #009471;
-    font-size: 0.875rem; }
+    font-size: 0.8rem; }
     @media only screen and (max-width: 767px) {
       .menu__link {
         justify-content: center;
@@ -244,31 +244,47 @@ figure {
       line-height: 1.9rem; } }
 
 .portafolio {
-  padding: 5rem 0;
+  padding: 4rem 0;
   text-align: center; }
   @media only screen and (max-width: 1366px) {
     .portafolio {
       padding: 3rem 0; } }
   .portafolio__grupo {
     display: grid;
-    grid-gap: 4rem 1rem;
+    grid-gap: 6rem 1rem;
     grid-template-columns: repeat(4, 1fr); }
     @media only screen and (max-width: 1480px) {
       .portafolio__grupo {
-        grid-template-columns: repeat(3, 1fr); } }
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4rem 1rem; } }
+    @media only screen and (max-width: 1366px) {
+      .portafolio__grupo {
+        grid-gap: 1rem; } }
     @media only screen and (max-width: 1024px) {
       .portafolio__grupo {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 8rem 2rem; } }
+        grid-gap: 6rem 2rem; } }
+    @media only screen and (max-width: 767px) {
+      .portafolio__grupo {
+        grid-gap: 2.5rem 1.5rem; } }
     @media only screen and (max-width: 425px) {
       .portafolio__grupo {
         grid-template-columns: 1fr;
-        grid-gap: 6rem 2rem; } }
+        grid-gap: 4rem; } }
+    @media only screen and (max-width: 375px) {
+      .portafolio__grupo {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem; } }
 
 .cajaTexto {
   margin-bottom: 4rem; }
   @media only screen and (max-width: 1480px) {
     .cajaTexto {
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 767px) {
+    .cajaTexto {
+      max-width: 90%;
+      margin: auto;
       margin-bottom: 3rem; } }
 
 .titulo2 {
@@ -279,6 +295,9 @@ figure {
   @media only screen and (max-width: 1366px) {
     .titulo2 {
       font-size: 2.5rem; } }
+  @media only screen and (max-width: 425px) {
+    .titulo2 {
+      line-height: 2.5rem; } }
 
 .titulo3 {
   font-size: 2rem;
