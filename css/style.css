@@ -15,6 +15,10 @@ h1, h2, h3, h4 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: #002019; }
+  @media only screen and (max-width: 1366px) {
+    .parrafo {
+      font-size: 1rem;
+      line-height: 1.25rem; } }
 
 .container {
   max-width: 1600px;
@@ -34,7 +38,7 @@ h1, h2, h3, h4 {
       max-width: 1000px; } }
   @media only screen and (max-width: 1024px) {
     .container {
-      max-width: 900px; } }
+      max-width: 94%; } }
 
 .principal {
   width: 100%;
@@ -219,7 +223,7 @@ figure {
         font-size: 1rem; } }
 
 .titulo1 {
-  font-size: 4.7rem;
+  font-size: 4.75rem;
   line-height: 4.5rem;
   color: #00775B;
   font-weight: 600; }
@@ -242,6 +246,9 @@ figure {
 .portafolio {
   padding: 5rem 0;
   text-align: center; }
+  @media only screen and (max-width: 1366px) {
+    .portafolio {
+      padding: 3rem 0; } }
   .portafolio__grupo {
     display: grid;
     grid-gap: 4rem 1rem;
@@ -253,15 +260,25 @@ figure {
       .portafolio__grupo {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 8rem 2rem; } }
+    @media only screen and (max-width: 425px) {
+      .portafolio__grupo {
+        grid-template-columns: 1fr;
+        grid-gap: 6rem 2rem; } }
 
 .cajaTexto {
   margin-bottom: 4rem; }
+  @media only screen and (max-width: 1480px) {
+    .cajaTexto {
+      margin-bottom: 3rem; } }
 
 .titulo2 {
   font-size: 3rem;
   line-height: 5rem;
   font-weight: 500;
   color: #00775B; }
+  @media only screen and (max-width: 1366px) {
+    .titulo2 {
+      font-size: 2.5rem; } }
 
 .titulo3 {
   font-size: 2rem;

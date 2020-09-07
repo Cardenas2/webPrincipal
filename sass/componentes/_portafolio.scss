@@ -1,6 +1,9 @@
 .portafolio{
     padding:5rem 0;
     text-align: center;
+    @include media(desktop-ml){
+        padding:3rem 0;
+    }
     &__grupo{
         display: grid;
         grid-gap: 4rem 1rem;
@@ -12,12 +15,21 @@
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 8rem 2rem;
         }
-    }
-    
+        @include media(phone-ml){
+            grid-gap: 3rem 1rem;
+        }
+        @include media(phone-m){
+            grid-template-columns:1fr;
+            grid-gap: 6rem 2rem;
+        }
+    } 
 }
 .cajaTexto{
     // background-color: darkviolet;
     margin-bottom: 4rem;
+    @include media(desktop-l){
+        margin-bottom: 3rem;
+    }
    
 }
 
@@ -26,6 +38,9 @@
     line-height: 5rem;
     font-weight: 500;
     color:$color3;
+    @include media(desktop-ml){
+        font-size: 2.5rem;
+    }
 }
 .titulo3{
     font-size: 2rem;
