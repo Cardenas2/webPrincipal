@@ -13,8 +13,11 @@ h1,h2,h3,h4{
     padding: 0;
     
 }
-
-
+.parrafo{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color:$color4;
+}
 .container {
     max-width:1600px;
     position: relative;
