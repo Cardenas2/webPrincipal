@@ -330,4 +330,19 @@ figure {
     .cajaTrabajo__texto:hover:before {
       height: 80%; }
 
+.clientes {
+  padding: 2rem 0;
+  background-color: forestgreen;
+  text-align: center; }
+  .clientes__grupo {
+    background-color: gold;
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem; }
+
+.titulo2--color {
+  color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
