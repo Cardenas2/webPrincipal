@@ -379,6 +379,10 @@ figure {
       .itemCliente__icono {
         width: 60px;
         height: 60px; } }
+    @media only screen and (max-width: 767px) {
+      .itemCliente__icono {
+        width: 80px;
+        height: 80px; } }
   .itemCliente__empresa {
     color: #ffffff; }
 
