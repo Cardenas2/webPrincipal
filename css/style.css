@@ -338,11 +338,23 @@ figure {
     background-color: gold;
     display: grid;
     margin: 0 auto;
-    width: 50%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem; }
+    width: 40%;
+    grid-template-columns: repeat(3, 1fr); }
 
 .titulo2--color {
   color: #ffffff; }
+
+.itemCliente {
+  background-color: hotpink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .itemCliente__icono {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-bottom: 0.6rem; }
 
 /*# sourceMappingURL=style.css.map */
