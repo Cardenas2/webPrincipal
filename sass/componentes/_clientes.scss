@@ -1,21 +1,21 @@
 .clientes{
+    background-color: $color2;
     padding: 2rem 0;
-    background-color: forestgreen;
     text-align: center;
     &__grupo{
-        background-color: gold;
         display: grid;
-       margin: 0 auto;
+        margin: 0 auto;
         width:40%;
         grid-template-columns: repeat(3, 1fr);
+        margin-top:2rem;
     }
 }
 .titulo2--color{
     color:$color8;
+    font-weight: 300;
 }
 
 .itemCliente{
-    background-color: hotpink;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,5 +26,12 @@
         border-radius: 50%;
         background-color: $color8;
         margin-bottom: 0.6rem;
+        img{
+            width: 60px;
+            height: auto;
+            display: block;
+            margin:auto;
+            margin-top:10px;
+        }
     }
 }
