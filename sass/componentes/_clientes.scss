@@ -2,12 +2,22 @@
     background-color: $color2;
     padding: 2rem 0;
     text-align: center;
+    @include media(desktop-ml){
+        padding: 3rem 0;
+    }
     &__grupo{
         display: grid;
         margin: 0 auto;
-        width:40%;
+        width:60%;
         grid-template-columns: repeat(3, 1fr);
         margin-top:2rem;
+        @include media (tablet){
+            width:70%;
+        }
+        @include media (phone-m){
+            margin-top:4rem;
+            grid-template-columns:1fr;
+        }
     }
 }
 .titulo2--color{
@@ -20,20 +30,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    @include media (tablet){
+        justify-content:flex-start;
+    }
+    @include media (phone-m){
+        margin-bottom: 4rem;;
+    }
     &__icono{
         width: 80px;
         height: 80px;
         border-radius: 50%;
         background-color: $color8;
         margin-bottom: 0.6rem;
-        img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include media(desktop-ml){
             width: 60px;
-            height: auto;
-            display: block;
-            margin:auto;
-            margin-top:10px;
+            height: 60px;
         }
+        
     
     }
     &__empresa{

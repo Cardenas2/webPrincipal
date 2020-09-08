@@ -334,12 +334,22 @@ figure {
   background-color: #00B389;
   padding: 2rem 0;
   text-align: center; }
+  @media only screen and (max-width: 1366px) {
+    .clientes {
+      padding: 3rem 0; } }
   .clientes__grupo {
     display: grid;
     margin: 0 auto;
-    width: 40%;
+    width: 60%;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 2rem; }
+    @media only screen and (max-width: 767px) {
+      .clientes__grupo {
+        width: 70%; } }
+    @media only screen and (max-width: 425px) {
+      .clientes__grupo {
+        margin-top: 4rem;
+        grid-template-columns: 1fr; } }
 
 .titulo2--color {
   color: #ffffff;
@@ -350,18 +360,25 @@ figure {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media only screen and (max-width: 767px) {
+    .itemCliente {
+      justify-content: flex-start; } }
+  @media only screen and (max-width: 425px) {
+    .itemCliente {
+      margin-bottom: 4rem; } }
   .itemCliente__icono {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-color: #ffffff;
-    margin-bottom: 0.6rem; }
-    .itemCliente__icono img {
-      width: 60px;
-      height: auto;
-      display: block;
-      margin: auto;
-      margin-top: 10px; }
+    margin-bottom: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 1366px) {
+      .itemCliente__icono {
+        width: 60px;
+        height: 60px; } }
   .itemCliente__empresa {
     color: #ffffff; }
 
