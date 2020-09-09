@@ -1,0 +1,29 @@
+.footer{
+    background-color:$color8;
+    padding: 3rem 0;
+    margin:auto;
+    &__redeSociales{
+        width: 20%;
+        margin:2.5rem auto;
+        display: grid;
+        
+        grid-template-columns: repeat(3,1fr);
+    }
+    &__rsItem{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(-45deg, $color5, $color2);
+    }
+    &__icono{
+        width:50px;
+        height:50px;
+        color:$color8;
+    }
+}
+.logo--footer{
+    text-align: center;
+}

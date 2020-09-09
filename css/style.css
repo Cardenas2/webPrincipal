@@ -71,10 +71,11 @@ h1, h2, h3, h4 {
       display: block;
       height: auto;
       padding: 1em 0;
-      position: inherit; }
-      .header .logo {
-        text-align: left;
-        margin-left: 1rem; } }
+      position: inherit; } }
+
+.logo {
+  text-align: left;
+  margin-left: 1rem; }
 
 .burger-button {
   border-radius: 50%;
@@ -385,5 +386,30 @@ figure {
         height: 80px; } }
   .itemCliente__empresa {
     color: #ffffff; }
+
+.footer {
+  background-color: #ffffff;
+  padding: 3rem 0;
+  margin: auto; }
+  .footer__redeSociales {
+    width: 20%;
+    margin: 2.5rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+  .footer__rsItem {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-45deg, #5CCEB3, #00B389); }
+  .footer__icono {
+    width: 50px;
+    height: 50px;
+    color: #ffffff; }
+
+.logo--footer {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
