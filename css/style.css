@@ -389,24 +389,23 @@ figure {
 
 .footer {
   background-color: #ffffff;
-  padding: 3rem 0;
-  margin: auto; }
+  padding: 3rem 0; }
   .footer__redeSociales {
-    width: 20%;
     margin: 2.5rem auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); }
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
   .footer__rsItem {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-image: linear-gradient(-45deg, #5CCEB3, #00B389); }
   .footer__icono {
-    width: 50px;
-    height: 50px;
+    font-size: 28px;
     color: #ffffff; }
 
 .logo--footer {
