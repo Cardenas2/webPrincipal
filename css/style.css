@@ -43,7 +43,8 @@ h1, h2, h3, h4 {
 .principal {
   width: 100%;
   background-size: cover;
-  height: 886px; }
+  height: 886px;
+  position: relative; }
 
 .button {
   width: 45px;
@@ -422,5 +423,11 @@ figure {
 
 .logo--footer {
   text-align: center; }
+
+.acerca {
+  position: relative; }
+  .acerca__imagen {
+    position: absolute;
+    height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
