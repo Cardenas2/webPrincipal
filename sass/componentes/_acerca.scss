@@ -10,8 +10,10 @@
       position: absolute;
       background-color: $color8;
       width: 930px;
-      padding: 2rem;
+      padding: 2rem 4rem;
       bottom: 4rem;
       left:45%;
+      box-shadow: 0px 8px 24px rgba($color4, .3);
+      border-radius: 0px 24px 24px 0px;
    }
 }
