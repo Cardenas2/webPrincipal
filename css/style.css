@@ -391,21 +391,33 @@ figure {
   background-color: #ffffff;
   padding: 3rem 0; }
   .footer__redeSociales {
-    margin: 2.5rem auto;
+    margin: 2rem auto;
     width: 14%;
     display: flex;
     align-items: center;
     justify-content: space-between; }
+    @media only screen and (max-width: 1480px) {
+      .footer__redeSociales {
+        width: 18%; } }
+    @media only screen and (max-width: 1366px) {
+      .footer__redeSociales {
+        width: 20%; } }
+    @media only screen and (max-width: 767px) {
+      .footer__redeSociales {
+        width: 32%; } }
+    @media only screen and (max-width: 425px) {
+      .footer__redeSociales {
+        width: 60%; } }
   .footer__rsItem {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-image: linear-gradient(-45deg, #5CCEB3, #00B389); }
   .footer__icono {
-    font-size: 28px;
+    font-size: 20px;
     color: #ffffff; }
 
 .logo--footer {
