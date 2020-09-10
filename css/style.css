@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px; }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
   padding: 0; }
 
@@ -445,9 +445,15 @@ figure {
   padding: 3rem 0; }
   .habilidades__grupo {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 8rem; }
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 6rem; }
   .habilidades__item > ol > li {
     list-style: none; }
+  .habilidades__individuales {
+    padding-bottom: 2rem; }
+
+.titulo5 {
+  font-size: 1.75rem;
+  color: #00775B; }
 
 /*# sourceMappingURL=style.css.map */

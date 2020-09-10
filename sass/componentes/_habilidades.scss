@@ -3,10 +3,18 @@
     // background-color: maroon;
     &__grupo{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap:8rem;
+        grid-template-columns:1fr 1.5fr 1fr;
+        grid-gap:6rem;
     }
     &__item >ol>li{
         list-style: none;
     }
+    &__individuales{
+        padding-bottom: 2rem;
+    }
+}
+
+.titulo5{
+    font-size: 1.75rem;
+    color:$color3;
 }
