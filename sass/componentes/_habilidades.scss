@@ -1,9 +1,12 @@
 .habilidades{
     padding: 3rem 0;
-    background-color: maroon;
+    // background-color: maroon;
     &__grupo{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap:8rem;
+    }
+    &__item >ol>li{
+        list-style: none;
     }
 }

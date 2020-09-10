@@ -442,11 +442,12 @@ figure {
     border-radius: 0px 24px 24px 0px; }
 
 .habilidades {
-  padding: 3rem 0;
-  background-color: maroon; }
+  padding: 3rem 0; }
   .habilidades__grupo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 8rem; }
+  .habilidades__item > ol > li {
+    list-style: none; }
 
 /*# sourceMappingURL=style.css.map */
