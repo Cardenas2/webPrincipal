@@ -457,10 +457,27 @@ figure {
   color: #00775B; }
 
 .experiencia {
-  padding: 3rem 0;
+  padding: 3rem 0 5rem 0;
   background-image: linear-gradient(118deg, #F5460C, #F76535); }
   .experiencia__grupo {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    padding-top: 3.75rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.75rem 10rem; }
+  .experiencia__itemTrabajos {
+    padding: 0;
+    margin: 0; }
+  .experiencia__texto {
+    padding-top: 1rem; }
+
+.titulo5 {
+  font-size: 1.5rem;
+  font-weight: 400; }
+
+.titulo5--color {
+  color: #ffffff; }
+
+.parrafo--color {
+  color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
