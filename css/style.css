@@ -452,12 +452,15 @@ figure {
   .habilidades__individuales {
     padding-bottom: 2rem; }
 
-.titulo5 {
+.titulo4 {
   font-size: 1.75rem;
   color: #00775B; }
 
 .experiencia {
   padding: 3rem 0;
   background-image: linear-gradient(118deg, #F5460C, #F76535); }
+  .experiencia__grupo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
 
 /*# sourceMappingURL=style.css.map */

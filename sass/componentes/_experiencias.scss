@@ -1,4 +1,8 @@
 .experiencia{
     padding: 3rem 0;
     background-image: linear-gradient(118deg, $color6, $color9);
+    &__grupo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
