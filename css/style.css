@@ -465,8 +465,17 @@ figure {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3.75rem 10rem; }
   .experiencia__itemTrabajos {
-    padding: 0;
-    margin: 0; }
+    position: relative;
+    padding-left: 2rem; }
+    .experiencia__itemTrabajos:before {
+      content: "";
+      display: block;
+      height: 80px;
+      width: 4px;
+      position: absolute;
+      background-color: #ffffff;
+      top: 6px;
+      left: 0; }
   .experiencia__texto {
     padding-top: 1rem; }
 
