@@ -1,10 +1,26 @@
 .acerca{
    position: relative;
+   @include media(desktop-l){
+     height: 560px;
+   }
+   @include media(desktop-m){
+      height: 460px;
+    }
+    @include media(tablet){
+      height: 400px;
+      width: 100%;
+      
+    }
    &__imagen{
        position: absolute;
+      //  width: auto;
        height: 100%;
        top:0;
        left:0;
+       @include media (tablet){
+          height:100%;
+          background-image: center;
+       }
    }
    &__text{
       position: absolute;
@@ -15,5 +31,21 @@
       left:45%;
       box-shadow: 0px 8px 24px rgba($color4, .3);
       border-radius: 0px 24px 24px 0px;
+      @include media(desktop-l){
+         width:820px;
+         left:35%;
+       }
+       @include media(desktop-ml){
+         padding: 1rem 3rem 1.5rem 3rem;
+         width: 720px;
+         left:34%;
+         bottom: 2rem;
+       }
+       @include media(desktop-m){
+         padding: 1rem 3rem 1.5rem 3rem;
+         width: 540px;
+         left:45%;
+         bottom: 2rem;
+       }
    }
 }
