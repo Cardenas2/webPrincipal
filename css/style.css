@@ -12,12 +12,12 @@ h1, h2, h3, h4, h5 {
   padding: 0; }
 
 .parrafo {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
   color: #002019; }
   @media only screen and (max-width: 1480px) {
     .parrafo {
-      font-size: 1em;
+      font-size: 1rem;
       line-height: 1.25rem; } }
   @media only screen and (max-width: 767px) {
     .parrafo {
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5 {
 .principal {
   width: 100%;
   background-size: cover;
-  height: 886px;
+  height: 800px;
   position: relative; }
 
 .button {

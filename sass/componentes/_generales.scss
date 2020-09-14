@@ -14,11 +14,11 @@ h1,h2,h3,h4,h5{
     
 }
 .parrafo{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
     color:$color4;
     @include media(desktop-l){
-        font-size:1em;
+        font-size:1rem;
         line-height: 1.25rem;
     }
     @include media(tablet){
@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5{
 .principal{
     width: 100%;
     background-size: cover;
-    height: 886px;
+    height: 800px;
     position: relative;
     // background-color: darkgoldenrod;
 }
