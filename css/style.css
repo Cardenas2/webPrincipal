@@ -21,8 +21,8 @@ h1, h2, h3, h4, h5 {
       line-height: 1.25rem; } }
   @media only screen and (max-width: 767px) {
     .parrafo {
-      font-size: 1.5em;
-      line-height: 2rem; } }
+      font-size: 1.2em;
+      line-height: 1.8rem; } }
 
 .container {
   max-width: 1600px;
@@ -441,7 +441,8 @@ figure {
       height: 460px; } }
   @media only screen and (max-width: 767px) {
     .acerca {
-      width: 100vw; } }
+      width: 100vw;
+      height: 340px; } }
   .acerca__text {
     position: absolute;
     background-color: #ffffff;
@@ -474,8 +475,8 @@ figure {
         z-index: 20;
         border-radius: 0px 0px 24px 24px;
         left: 0;
-        width: 100%;
-        bottom: -62%; } }
+        width: 100vw;
+        bottom: -75%; } }
 
 .habilidades {
   padding: 3rem 0; }
