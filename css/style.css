@@ -427,6 +427,7 @@ figure {
 .acerca {
   background-image: url(../img/acerca.png);
   width: 50%;
+  background-position: right center;
   position: relative; }
   @media only screen and (max-width: 1480px) {
     .acerca {
@@ -458,20 +459,22 @@ figure {
     border-radius: 0px 24px 24px 0px; }
     @media only screen and (max-width: 1480px) {
       .acerca__text {
-        width: 820px;
-        left: 35%; } }
+        width: 780px;
+        padding: 2rem 3.5rem 3rem 3.5rem;
+        left: 88%;
+        bottom: 3rem; } }
     @media only screen and (max-width: 1366px) {
       .acerca__text {
         padding: 1rem 3rem 1.5rem 3rem;
         width: 720px;
-        left: 34%;
+        padding: 1.5rem 3rem 2.5rem 3rem;
+        left: 85%;
         bottom: 2rem; } }
     @media only screen and (max-width: 1024px) {
       .acerca__text {
         padding: 1rem 3rem 1.5rem 3rem;
-        width: 540px;
-        left: 45%;
-        bottom: 2rem; } }
+        width: 520px;
+        left: 92%; } }
 
 .habilidades {
   padding: 3rem 0; }
