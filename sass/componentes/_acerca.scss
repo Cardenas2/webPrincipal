@@ -8,24 +8,11 @@
    }
    @include media(desktop-m){
       height: 460px;
-    }
-    @include media(tablet){
-      height: 400px;
-      width: 100%;
-      
-    }
-   &__imagen{
-       position: absolute;
-      //  width: auto;
-       height: 100%;
-       top:0;
-       left:0;
-       @include media (tablet){
-          height:100%;
-          background-image: center;
-       }
    }
-   &__text{
+  @include media (tablet){
+    width: 100vw;
+  }
+  &__text{
       position: absolute;
       background-color: $color8;
       width: 930px;
@@ -52,5 +39,11 @@
          width: 520px;
          left:92%;
        }
+       @include media(tablet){
+        border-radius: 0px 0px 24px 24px;
+         left:0;
+         width: 100%;
+         bottom: -40%;
+      }
    }
 }
