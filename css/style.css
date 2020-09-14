@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5 {
     .parrafo {
       font-size: 1em;
       line-height: 1.25rem; } }
+  @media only screen and (max-width: 767px) {
+    .parrafo {
+      font-size: 1.5em;
+      line-height: 2rem; } }
 
 .container {
   max-width: 1600px;
@@ -467,10 +471,11 @@ figure {
         left: 92%; } }
     @media only screen and (max-width: 767px) {
       .acerca__text {
+        z-index: 20;
         border-radius: 0px 0px 24px 24px;
         left: 0;
         width: 100%;
-        bottom: -40%; } }
+        bottom: -62%; } }
 
 .habilidades {
   padding: 3rem 0; }
