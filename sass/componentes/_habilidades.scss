@@ -6,6 +6,10 @@
         grid-template-columns:1fr 1.5fr 1fr;
         grid-gap:6rem;
     }
+    @include media(desktop-l){
+        grid-template-columns:repeat(3, 1fr);
+        grid-gap:0;
+    }
     &__item >ol>li{
         list-style: none;
     }
