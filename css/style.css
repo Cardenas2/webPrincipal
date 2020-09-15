@@ -257,7 +257,7 @@ figure {
       padding: 3rem 0; } }
   .portafolio__grupo {
     display: grid;
-    grid-gap: 6rem 1rem;
+    grid-gap: 6rem 2rem;
     grid-template-columns: repeat(4, 1fr); }
     @media only screen and (max-width: 1480px) {
       .portafolio__grupo {
