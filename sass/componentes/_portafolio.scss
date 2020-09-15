@@ -52,7 +52,7 @@
 }
 
 .titulo2{
-    @include font-size(48px);
+    @include font-size(42px);
     font-weight: 500;
     color:$color3;
     @include media(desktop-ml){
@@ -63,7 +63,7 @@
     }
 }
 .titulo3{
-    @include font-size(32px);
+    @include font-size(28px);
     font-weight: 500;
     color:$color3;
 }

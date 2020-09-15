@@ -3,7 +3,7 @@
     background-image: linear-gradient(118deg, $color6, $color9);
     &__grupo{
         display: grid;
-        padding-top: 3.75rem;
+        padding-top: 2.5rem;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 3.75rem 10rem;
     }
@@ -27,7 +27,7 @@
 }
 .titulo5{
     font-weight: 400;
-    @include font-size(24px);
+    @include font-size(22px);
 }
 .titulo5--color{
     color:$color8;
