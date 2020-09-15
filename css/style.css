@@ -48,6 +48,9 @@ h1, h2, h3, h4, h5 {
   @media only screen and (max-width: 1024px) {
     .container {
       max-width: 94%; } }
+  @media only screen and (max-width: 767px) {
+    .container {
+      max-width: 90%; } }
 
 .principal {
   width: 100%;
@@ -491,8 +494,8 @@ figure {
         z-index: 20;
         border-radius: 0px 0px 24px 24px;
         left: 0;
-        width: 720px;
-        bottom: -58%; } }
+        width: 100%;
+        bottom: -60%; } }
 
 .habilidades {
   padding: 3rem 0; }
@@ -500,6 +503,11 @@ figure {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     grid-gap: 6rem; }
+    @media only screen and (max-width: 767px) {
+      .habilidades__grupo {
+        margin-top: 12rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem; } }
   @media only screen and (max-width: 1480px) {
     .habilidades {
       grid-template-columns: repeat(3, 1fr);
@@ -507,13 +515,21 @@ figure {
   .habilidades__item > ol > li {
     list-style: none; }
   .habilidades__individuales {
-    padding-bottom: 2rem; }
+    padding-bottom: 1rem; }
+    @media only screen and (max-width: 1366px) {
+      .habilidades__individuales {
+        padding-bottom: 0.6rem; } }
 
 .titulo4 {
   color: #00775B;
   font-size: 22px;
   font-size: 1.375rem;
   line-height: 2.2rem; }
+  @media only screen and (max-width: 1366px) {
+    .titulo4 {
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 2rem; } }
 
 .experiencia {
   padding: 3rem 0 5rem 0;

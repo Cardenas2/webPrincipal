@@ -5,20 +5,32 @@
         display: grid;
         grid-template-columns:1fr 1.5fr 1fr;
         grid-gap:6rem;
+        @include media(tablet){
+            margin-top:12rem;
+            grid-template-columns:repeat(2, 1fr);
+            grid-gap:2rem;
+        }
     }
     @include media(desktop-l){
         grid-template-columns:repeat(3, 1fr);
         grid-gap:0;
+        
     }
     &__item >ol>li{
         list-style: none;
     }
     &__individuales{
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
+        @include media(desktop-ml){
+            padding-bottom: 0.6rem;
+        }
     }
 }
 
 .titulo4{
     color:$color3;
     @include font-size(22px);
+    @include media(desktop-ml){
+        @include font-size(20px);
+    }
 }
