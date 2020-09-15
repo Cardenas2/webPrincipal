@@ -3,9 +3,21 @@
     padding:0;
     box-sizing: border-box;
 }
+
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+	font-size: $size;
+	font-size: calculateRem($size);
+	line-height: calculateRem($size)*1.8;
+}
+ 
 body{
     font-family: $fuente-Uno;
-    font-size: 16px;
+    @include font-size(16px);
 }
 
 h1,h2,h3,h4,h5{
@@ -14,16 +26,13 @@ h1,h2,h3,h4,h5{
     
 }
 .parrafo{
-    font-size: 0.875rem;
-    line-height: 1.5rem;
+    @include font-size(14px);
     color:$color4;
     @include media(desktop-l){
-        font-size:1rem;
-        line-height: 1.25rem;
+        @include font-size(16px);
     }
     @include media(tablet){
-        font-size:1.2em;
-        line-height: 1.8rem;
+        @include font-size(18px);
     }
   
     

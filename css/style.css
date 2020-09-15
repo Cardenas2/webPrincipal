@@ -5,24 +5,29 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.8rem; }
 
 h1, h2, h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
   padding: 0; }
 
 .parrafo {
+  font-size: 14px;
   font-size: 0.875rem;
-  line-height: 1.5rem;
+  line-height: 1.575rem;
   color: #002019; }
   @media only screen and (max-width: 1480px) {
     .parrafo {
+      font-size: 16px;
       font-size: 1rem;
-      line-height: 1.25rem; } }
+      line-height: 1.8rem; } }
   @media only screen and (max-width: 767px) {
     .parrafo {
-      font-size: 1.2em;
-      line-height: 1.8rem; } }
+      font-size: 18px;
+      font-size: 1.125rem;
+      line-height: 2.025rem; } }
 
 .container {
   max-width: 1600px;
@@ -257,7 +262,7 @@ figure {
       padding: 3rem 0; } }
   .portafolio__grupo {
     display: grid;
-    grid-gap: 6rem 2rem;
+    grid-gap: 3rem 2rem;
     grid-template-columns: repeat(4, 1fr); }
     @media only screen and (max-width: 1480px) {
       .portafolio__grupo {
