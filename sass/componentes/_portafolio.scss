@@ -20,7 +20,7 @@
             grid-gap:6rem 2rem;
         }
         @include media(tablet){
-            grid-gap: 2.5rem 1.5rem;
+            grid-gap:1.5rem;
         }
         @include media(phone-ml){
             grid-gap: 2rem 1rem;
@@ -55,11 +55,11 @@
     @include font-size(42px);
     font-weight: 500;
     color:$color3;
-    @include media(desktop-ml){
-        font-size: 2.5rem;
+    @include media(desktop-l){
+        @include font-size(38px);
     }
-    @include media(phone-m){
-       line-height: 2.5rem;
+    @include media(desktop-l){
+        @include font-size(32px);
     }
 }
 .titulo3{
