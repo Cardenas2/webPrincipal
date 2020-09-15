@@ -26,9 +26,8 @@
     }
 }
 .titulo5{
-    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.8rem;
+    @include font-size(24px);
 }
 .titulo5--color{
     color:$color8;

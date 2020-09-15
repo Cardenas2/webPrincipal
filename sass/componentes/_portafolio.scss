@@ -52,8 +52,7 @@
 }
 
 .titulo2{
-    font-size: 3rem;
-    line-height: 5rem;
+    @include font-size(48px);
     font-weight: 500;
     color:$color3;
     @include media(desktop-ml){
@@ -64,8 +63,7 @@
     }
 }
 .titulo3{
-    font-size: 2rem;
-    line-height: 3.2rem;
+    @include font-size(32px);
     font-weight: 500;
     color:$color3;
 }

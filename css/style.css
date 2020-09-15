@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.8rem; }
+  line-height: 1.6rem; }
 
 h1, h2, h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
@@ -16,18 +16,18 @@ h1, h2, h3, h4, h5 {
 .parrafo {
   font-size: 14px;
   font-size: 0.875rem;
-  line-height: 1.575rem;
+  line-height: 1.4rem;
   color: #002019; }
   @media only screen and (max-width: 1480px) {
     .parrafo {
       font-size: 16px;
       font-size: 1rem;
-      line-height: 1.8rem; } }
+      line-height: 1.6rem; } }
   @media only screen and (max-width: 767px) {
     .parrafo {
       font-size: 18px;
       font-size: 1.125rem;
-      line-height: 2.025rem; } }
+      line-height: 1.8rem; } }
 
 .container {
   max-width: 1600px;
@@ -299,8 +299,9 @@ figure {
       margin-bottom: 3rem; } }
 
 .titulo2 {
+  font-size: 48px;
   font-size: 3rem;
-  line-height: 5rem;
+  line-height: 4.8rem;
   font-weight: 500;
   color: #00775B; }
   @media only screen and (max-width: 1366px) {
@@ -311,6 +312,7 @@ figure {
       line-height: 2.5rem; } }
 
 .titulo3 {
+  font-size: 32px;
   font-size: 2rem;
   line-height: 3.2rem;
   font-weight: 500;
@@ -504,8 +506,10 @@ figure {
     padding-bottom: 2rem; }
 
 .titulo4 {
+  color: #00775B;
+  font-size: 28px;
   font-size: 1.75rem;
-  color: #00775B; }
+  line-height: 2.8rem; }
 
 .experiencia {
   padding: 3rem 0 5rem 0;
@@ -531,9 +535,10 @@ figure {
     padding-top: 1rem; }
 
 .titulo5 {
-  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 1.8rem; }
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 2.4rem; }
 
 .titulo5--color {
   color: #ffffff; }

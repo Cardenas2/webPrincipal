@@ -12,7 +12,7 @@
 @mixin font-size($size) {
 	font-size: $size;
 	font-size: calculateRem($size);
-	line-height: calculateRem($size)*1.8;
+	line-height: calculateRem($size)*1.6;
 }
  
 body{

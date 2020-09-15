@@ -19,6 +19,6 @@
 }
 
 .titulo4{
-    font-size: 1.75rem;
     color:$color3;
+    @include font-size(28px);
 }
