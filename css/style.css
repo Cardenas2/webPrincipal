@@ -457,6 +457,9 @@ figure {
     .acerca {
       width: 100vw;
       height: 340px; } }
+  @media only screen and (max-width: 425px) {
+    .acerca {
+      height: 250px; } }
   .acerca__text {
     position: absolute;
     background-color: #ffffff;
@@ -496,6 +499,13 @@ figure {
         left: 0;
         width: 100%;
         bottom: -60%; } }
+    @media only screen and (max-width: 425px) {
+      .acerca__text {
+        z-index: 20;
+        border-radius: 0px 0px 24px 24px;
+        left: 0;
+        width: 100%;
+        bottom: -180%; } }
 
 .habilidades {
   padding: 3rem 0; }
@@ -507,6 +517,11 @@ figure {
       .habilidades__grupo {
         margin-top: 12rem;
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem; } }
+    @media only screen and (max-width: 425px) {
+      .habilidades__grupo {
+        margin-top: 28rem;
+        grid-template-columns: 1fr;
         grid-gap: 2rem; } }
   @media only screen and (max-width: 1480px) {
     .habilidades {
@@ -522,6 +537,7 @@ figure {
 
 .titulo4 {
   color: #00775B;
+  font-weight: 400;
   font-size: 22px;
   font-size: 1.375rem;
   line-height: 2.2rem; }
@@ -539,17 +555,24 @@ figure {
     padding-top: 2.5rem;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3.75rem 10rem; }
+    @media only screen and (max-width: 767px) {
+      .experiencia__grupo {
+        grid-template-columns: 1fr;
+        grid-gap: 3.5rem; } }
   .experiencia__itemTrabajos {
     position: relative;
     padding-left: 2rem; }
+    @media only screen and (max-width: 767px) {
+      .experiencia__itemTrabajos {
+        padding-left: 1rem; } }
     .experiencia__itemTrabajos:before {
       content: "";
       display: block;
-      height: 80px;
+      height: 60px;
       width: 4px;
       position: absolute;
       background-color: #ffffff;
-      top: 0;
+      top: 5%;
       left: 0; }
   .experiencia__texto {
     padding-top: 1rem; }

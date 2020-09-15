@@ -10,6 +10,11 @@
             grid-template-columns:repeat(2, 1fr);
             grid-gap:2rem;
         }
+        @include media(phone-m){
+            margin-top:28rem;
+            grid-template-columns:1fr;
+            grid-gap:2rem;
+        }
     }
     @include media(desktop-l){
         grid-template-columns:repeat(3, 1fr);
@@ -29,6 +34,7 @@
 
 .titulo4{
     color:$color3;
+    font-weight: 400;
     @include font-size(22px);
     @include media(desktop-ml){
         @include font-size(20px);

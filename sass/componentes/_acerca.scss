@@ -13,6 +13,9 @@
     width: 100vw;
     height: 340px;
   }
+  @include media(phone-m){
+    height: 250px;
+  }
   &__text{
       position: absolute;
       background-color: $color8;
@@ -52,5 +55,12 @@
          width: 100%;
          bottom: -60%;
       }
+      @include media(phone-m){
+        z-index: 20;
+        border-radius: 0px 0px 24px 24px;
+        left:0;
+        width: 100%;
+        bottom: -180%;
+     }
    }
 }
