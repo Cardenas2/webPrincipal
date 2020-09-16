@@ -605,6 +605,29 @@ figure {
 .form {
   width: 60%;
   height: 400px;
-  background-color: lightcoral; }
+  margin: 0 auto; }
+  .form__grupo {
+    padding: 2rem 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%; }
+  .form__individual {
+    display: flex;
+    flex-direction: column; }
+    .form__individual > label, .form__individual input {
+      display: inline-block;
+      text-align: left; }
+  .form textarea {
+    width: 100%;
+    height: 200px; }
+
+input, textarea {
+  border: 2px solid #ffffff;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 8px; }
+  input:focus, textarea:focus {
+    outline: 0;
+    border-color: rgba(247, 101, 53, 0.8); }
 
 /*# sourceMappingURL=style.css.map */
