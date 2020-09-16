@@ -589,4 +589,11 @@ figure {
 .parrafo--color {
   color: #ffffff; }
 
+.contacto {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr; }
+  .contacto img {
+    height: 100%; }
+
 /*# sourceMappingURL=style.css.map */
