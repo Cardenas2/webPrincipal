@@ -595,5 +595,7 @@ figure {
   grid-template-columns: 1fr 3fr; }
   .contacto img {
     height: 100%; }
+  .contacto__formulario {
+    background-image: linear-gradient(113deg, #5CCEB3, #00B389); }
 
 /*# sourceMappingURL=style.css.map */
