@@ -596,6 +596,15 @@ figure {
   .contacto img {
     height: 100%; }
   .contacto__formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image: linear-gradient(113deg, #5CCEB3, #00B389); }
+
+.form {
+  width: 60%;
+  height: 400px;
+  background-color: lightcoral; }
 
 /*# sourceMappingURL=style.css.map */
