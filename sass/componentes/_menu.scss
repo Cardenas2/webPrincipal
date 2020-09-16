@@ -38,7 +38,7 @@
     color:$color1;
     .icon-Menu{
         color:$color1;
-        font-size:30px;
+        font-size:40px;
     }
     @include media(tablet){
        display: block;
@@ -63,7 +63,7 @@ figure{
         position: fixed;
         background-color: rgba($color8, .7);
         width: 100vw;
-        z-index: 40;
+        z-index: 30;
         right: -100vw;
         top: 0;
         bottom: 0;
