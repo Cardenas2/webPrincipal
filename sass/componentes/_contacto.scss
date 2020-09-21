@@ -1,11 +1,16 @@
 .contacto{
-   margin:0 auto;
-   display:grid;
-   grid-template-columns: 1fr 3fr;
-   @include media(desktop-l){
-    height:560px;
-}
-
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    @include media(desktop-l){
+      height:560px;
+    }
+    @include media(desktop-ml){
+        height: 450px;
+    }
+    @include media(desktop-m){
+        height: 400px;
+    }
    &__imagen{
        height: 100%;
        @include media(desktop-l){
@@ -21,6 +26,9 @@
         @include media(desktop-l){
             padding: 0 4rem;
         }
+        @include media(desktop-ml){
+            padding: 2rem 4rem;
+        }
    }
 
 }
@@ -32,6 +40,9 @@
     @include media(desktop-l){
         width: 90%;
     }
+    // @include media(desktop-ml){
+    //     height: 100%;
+    // }
     &__grupo{
         padding: 2rem 0;
         // background-color: lightseagreen;
@@ -57,6 +68,9 @@
         @include media(desktop-l){
             height:100px;
         }
+        // @include media(desktop-ml){
+        //     height:70px;
+        // }
     }
 }
 

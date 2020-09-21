@@ -407,6 +407,7 @@ figure {
     color: #ffffff; }
 
 .footer {
+  position: relative;
   background-color: #ffffff;
   padding: 3rem 0; }
   .footer__redeSociales {
@@ -432,6 +433,7 @@ figure {
     height: 40px;
     border-radius: 50%;
     display: flex;
+    text-decoration: none;
     align-items: center;
     justify-content: space-around;
     background-image: linear-gradient(-45deg, #5CCEB3, #00B389); }
@@ -596,6 +598,12 @@ figure {
   @media only screen and (max-width: 1480px) {
     .contacto {
       height: 560px; } }
+  @media only screen and (max-width: 1366px) {
+    .contacto {
+      height: 450px; } }
+  @media only screen and (max-width: 1024px) {
+    .contacto {
+      height: 400px; } }
   .contacto__imagen {
     height: 100%; }
     @media only screen and (max-width: 1480px) {
@@ -610,6 +618,9 @@ figure {
     @media only screen and (max-width: 1480px) {
       .contacto__formulario {
         padding: 0 4rem; } }
+    @media only screen and (max-width: 1366px) {
+      .contacto__formulario {
+        padding: 2rem 4rem; } }
 
 .form {
   width: 60%;
