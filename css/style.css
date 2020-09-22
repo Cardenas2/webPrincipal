@@ -168,7 +168,7 @@ figure {
     font-weight: 500; }
 
 .hero {
-  background-image: url(../img/Hero.jpg);
+  background-image: url(https://i.imgur.com/fYcWyHJ.jpg);
   height: 886px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -445,7 +445,7 @@ figure {
   text-align: center; }
 
 .acerca {
-  background-image: url(../img/acerca.png);
+  background-image: url(https://i.imgur.com/D6FejIh.png);
   width: 50%;
   background-position: right center;
   position: relative; }
