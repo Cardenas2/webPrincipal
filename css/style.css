@@ -592,12 +592,15 @@ figure {
   color: #ffffff; }
 
 .contacto {
-  height: 720px;
+  height: 680px;
   text-align: center;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 3fr;
   background-image: linear-gradient(113deg, #5CCEB3, #00B389); }
+  @media only screen and (max-width: 1480px) {
+    .contacto {
+      height: 600px; } }
   .contacto__formulario {
     display: flex;
     flex-direction: column;
@@ -606,25 +609,35 @@ figure {
     @media only screen and (max-width: 1480px) {
       .contacto__formulario {
         padding: 0 4rem; } }
+    @media only screen and (max-width: 1024px) {
+      .contacto__formulario {
+        padding: 0 2rem; } }
   .contacto__imagen {
     width: auto;
     height: 100%;
     background-position: center; }
 
-.form {
+.form, textarea {
   width: 840px; }
   @media only screen and (max-width: 1480px) {
-    .form {
+    .form, textarea {
       width: 780px; } }
-  @media only screen and (max-width: 1366px) {
-    .form {
-      width: 740px; } }
+  @media only screen and (max-width: 1024px) {
+    .form, textarea {
+      width: 440px; } }
   .form__grupo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem; }
+    @media only screen and (max-width: 1024px) {
+      .form__grupo {
+        grid-template-columns: 1fr;
+        grid-gap: .2rem; } }
   .form__individual {
     padding: .8rem 0; }
+    @media only screen and (max-width: 1024px) {
+      .form__individual {
+        padding: .2rem 0; } }
     .form__individual > label, .form__individual input {
       width: 100%;
       height: 34px;
@@ -638,7 +651,7 @@ figure {
       border: none;
       border-radius: 8px;
       padding: .2rem;
-      display: block; }
+      display: inline-block; }
   .form__enviar {
     border: none;
     font-size: .8rem;
@@ -648,14 +661,12 @@ figure {
     color: #ffffff; }
 
 textarea {
-  width: 840px;
   height: 280px; }
   @media only screen and (max-width: 1480px) {
     textarea {
-      width: 780px;
       height: 240px; } }
-  @media only screen and (max-width: 1366px) {
+  @media only screen and (max-width: 1480px) {
     textarea {
-      width: 740px; } }
+      height: 150px; } }
 
 /*# sourceMappingURL=style.css.map */
