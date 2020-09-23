@@ -4,7 +4,7 @@
     margin:0 auto;
     display:grid;
     grid-template-columns: 1fr 3fr;
-    background-color: lightcoral;
+    background-image: linear-gradient(113deg, $color5, $color2);
     &__formulario{
         display:flex;
         flex-direction: column;
@@ -12,13 +12,14 @@
         align-items:center;
     }
     &__imagen{
-        height: 100%;
+        width:auto;
+        height:100%;
+        background-position: center;
     }
 }
 .form{
     width:840px;
-    // height: 400px;
-    // background-color: limegreen;
+   
     &__grupo{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -33,7 +34,7 @@
             border: none;
             border-radius:8px;
             padding: .2rem;
-            display: block;
+            display:inline-block;
         }
         >textarea{
             text-align: left;
