@@ -603,6 +603,9 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    @media only screen and (max-width: 1480px) {
+      .contacto__formulario {
+        padding: 0 4rem; } }
   .contacto__imagen {
     width: auto;
     height: 100%;
@@ -610,6 +613,12 @@ figure {
 
 .form {
   width: 840px; }
+  @media only screen and (max-width: 1480px) {
+    .form {
+      width: 780px; } }
+  @media only screen and (max-width: 1366px) {
+    .form {
+      width: 740px; } }
   .form__grupo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -641,5 +650,12 @@ figure {
 textarea {
   width: 840px;
   height: 280px; }
+  @media only screen and (max-width: 1480px) {
+    textarea {
+      width: 780px;
+      height: 240px; } }
+  @media only screen and (max-width: 1366px) {
+    textarea {
+      width: 740px; } }
 
 /*# sourceMappingURL=style.css.map */
