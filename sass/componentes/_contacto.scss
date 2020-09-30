@@ -78,22 +78,34 @@
         @include media(tablet){
             width: 100%;;
         }
-        >label, input{
+        >label{
+            float: left;
+            align-self: flex-start;
+        }
+        >input{
             width:100%;
             height: 34px;
             text-align: left;
-            border: none;
+            border:2px solid $color8;
             border-radius:8px;
-            padding: .2rem;
+            padding: .5rem;
             display:inline-block;
+            &:focus{
+                outline: 0;
+                border-color:rgba($color9, .8);  
+              }
         }
 
         >textarea{
             text-align: left;
-            border: none;
+            border: 2px solid $color8;
             border-radius:8px;
-            padding: .2rem;
+            padding: .5rem;
             display: inline-block;
+            &:focus{
+                outline: 0;
+                border-color:rgba($color9, .8);  
+              }
         }
         
     }

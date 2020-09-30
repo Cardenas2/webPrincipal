@@ -663,20 +663,29 @@ figure {
     @media only screen and (max-width: 767px) {
       .form__individual {
         width: 100%; } }
-    .form__individual > label, .form__individual input {
+    .form__individual > label {
+      float: left;
+      align-self: flex-start; }
+    .form__individual > input {
       width: 100%;
       height: 34px;
       text-align: left;
-      border: none;
+      border: 2px solid #ffffff;
       border-radius: 8px;
-      padding: .2rem;
+      padding: .5rem;
       display: inline-block; }
+      .form__individual > input:focus {
+        outline: 0;
+        border-color: rgba(247, 101, 53, 0.8); }
     .form__individual > textarea {
       text-align: left;
-      border: none;
+      border: 2px solid #ffffff;
       border-radius: 8px;
-      padding: .2rem;
+      padding: .5rem;
       display: inline-block; }
+      .form__individual > textarea:focus {
+        outline: 0;
+        border-color: rgba(247, 101, 53, 0.8); }
   .form__enviar {
     border: none;
     font-size: .8rem;
