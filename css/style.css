@@ -607,7 +607,12 @@ figure {
   @media only screen and (max-width: 767px) {
     .contacto {
       grid-template-columns: 1fr;
-      height: 600px; } }
+      height: 600px;
+      padding: 0 1rem; } }
+  @media only screen and (max-width: 425px) {
+    .contacto {
+      height: 740px;
+      padding: 0 1rem; } }
   .contacto__formulario {
     display: flex;
     flex-direction: column;
@@ -641,7 +646,7 @@ figure {
       width: 440px; } }
   @media only screen and (max-width: 767px) {
     .form, textarea {
-      width: 600px; } }
+      width: 100%; } }
   .form__grupo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -688,8 +693,5 @@ textarea {
   @media only screen and (max-width: 1024px) {
     textarea {
       height: 150px; } }
-  @media only screen and (max-width: 767px) {
-    textarea {
-      height: 100px; } }
 
 /*# sourceMappingURL=style.css.map */

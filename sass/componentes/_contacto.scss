@@ -14,6 +14,11 @@
     @include media(tablet){
         grid-template-columns: 1fr;
         height: 600px;
+        padding: 0 1rem;
+    }
+    @include media(phone-m){
+        height: 740px;
+        padding: 0 1rem;
     }
 
     &__formulario{
@@ -52,7 +57,7 @@
         width: 440px;
     }
     @include media(tablet){
-        width: 600px;
+        width: 100%;
     }
     
    
@@ -110,8 +115,6 @@ textarea{
     @include media(desktop-m){
         height: 150px;
     }
-    @include media(tablet){
-        height: 100px;
-    }
+    
     
 }
