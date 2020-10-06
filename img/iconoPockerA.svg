@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <clipPath id="clip-Logotipo2">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Logotipo2" clip-path="url(#clip-Logotipo2)">
+    <rect width="50" height="50" fill="#fff"/>
+    <g id="logotipoPA" transform="translate(7.005 7.001)">
+      <g id="logopoker6-02" transform="translate(-0.005 -0.001)">
+        <path id="Trazado_20" data-name="Trazado 20" d="M76.5,34.338A18,18,0,0,0,45.384,22.019l1.575,2.62a14.793,14.793,0,0,0-1.061,1.44l-2.987-.739a17.87,17.87,0,0,0-1.872,4.62l2.729,1.523c-.049.278-.1.561-.126.845s-.06.569-.079.852l-3.06.845v.31a18,18,0,0,0,.6,4.608l3.251-.01a14.9,14.9,0,0,0,.69,1.649L42.7,42.952A18.018,18.018,0,0,0,45.623,46.9l2.96-1.68a14.872,14.872,0,0,0,1.553,1.19l-.861,3.382A17.862,17.862,0,0,0,53.751,51.7l1.8-3.084q.5.1,1.01.156t1.02.088L58.6,52.332a18.047,18.047,0,0,0,4.789-.67l-.035-3.669a14.9,14.9,0,0,0,1.791-.789l2.672,2.531A17.987,17.987,0,0,0,76.5,34.338Zm-18,9.969a9.969,9.969,0,1,1,9.969-9.97,9.969,9.969,0,0,1-9.969,9.97Z" transform="translate(-40.505 -16.339)" fill="url(#linear-gradient)"/>
+        <path id="Trazado_21" data-name="Trazado 21" d="M124.648,88.7a8.391,8.391,0,1,0-1.417,11.783A8.39,8.39,0,0,0,124.648,88.7Zm-6.6,12.589a7.406,7.406,0,1,1,7.407-7.407,7.406,7.406,0,0,1-7.407,7.407Z" transform="translate(-100.048 -75.882)" fill="#a4a1a1"/>
+        <path id="Trazado_22" data-name="Trazado 22" d="M114.795,81.72a8.913,8.913,0,1,0,8.91,8.913A8.913,8.913,0,0,0,114.795,81.72Zm0,17.549a8.637,8.637,0,1,1,8.635-8.637,8.637,8.637,0,0,1-8.635,8.637Z" transform="translate(-96.794 -72.631)" fill="#d6d2d2" stroke="#d6d2d2" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
