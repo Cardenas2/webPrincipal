@@ -12,7 +12,7 @@
 @mixin font-size($size) {
 	font-size: $size;
 	font-size: calculateRem($size);
-	line-height: calculateRem($size)*1.6;
+	line-height: calculateRem($size)*1.8;
 }
  
 body{
@@ -26,13 +26,13 @@ h1,h2,h3,h4,h5{
     
 }
 .parrafo{
-    @include font-size(14px);
+    @include font-size(16px);
     color:$color4;
     @include media(desktop-l){
-        @include font-size(16px);
+        @include font-size(18px);
     }
     @include media(phone-m){
-        @include font-size(18px);
+        @include font-size(20px);
     }
 }
 .container {

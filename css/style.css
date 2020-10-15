@@ -7,27 +7,27 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.6rem; }
+  line-height: 1.8rem; }
 
 h1, h2, h3, h4, h5 {
   font-family: "Montserrat", sans-serif;
   padding: 0; }
 
 .parrafo {
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.4rem;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.8rem;
   color: #002019; }
   @media only screen and (max-width: 1480px) {
     .parrafo {
-      font-size: 16px;
-      font-size: 1rem;
-      line-height: 1.6rem; } }
-  @media only screen and (max-width: 425px) {
-    .parrafo {
       font-size: 18px;
       font-size: 1.125rem;
-      line-height: 1.8rem; } }
+      line-height: 2.025rem; } }
+  @media only screen and (max-width: 425px) {
+    .parrafo {
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 2.25rem; } }
 
 .container {
   max-width: 1600px;
@@ -304,24 +304,24 @@ figure {
 .titulo2 {
   font-size: 42px;
   font-size: 2.625rem;
-  line-height: 4.2rem;
+  line-height: 4.725rem;
   font-weight: 500;
   color: #00775B; }
   @media only screen and (max-width: 1480px) {
     .titulo2 {
       font-size: 38px;
       font-size: 2.375rem;
-      line-height: 3.8rem; } }
+      line-height: 4.275rem; } }
   @media only screen and (max-width: 1480px) {
     .titulo2 {
       font-size: 32px;
       font-size: 2rem;
-      line-height: 3.2rem; } }
+      line-height: 3.6rem; } }
 
 .titulo3 {
   font-size: 28px;
   font-size: 1.75rem;
-  line-height: 2.8rem;
+  line-height: 3.15rem;
   font-weight: 500;
   color: #00775B; }
 
@@ -542,12 +542,12 @@ figure {
   font-weight: 400;
   font-size: 22px;
   font-size: 1.375rem;
-  line-height: 2.2rem; }
+  line-height: 2.475rem; }
   @media only screen and (max-width: 1366px) {
     .titulo4 {
       font-size: 20px;
       font-size: 1.25rem;
-      line-height: 2rem; } }
+      line-height: 2.25rem; } }
 
 .experiencia {
   padding: 3rem 0 5rem 0;
@@ -583,7 +583,7 @@ figure {
   font-weight: 400;
   font-size: 22px;
   font-size: 1.375rem;
-  line-height: 2.2rem; }
+  line-height: 2.475rem; }
 
 .titulo5--color {
   color: #ffffff; }
@@ -715,7 +715,7 @@ textarea {
 
 .explicacion {
   width: 100%;
-  padding: 4rem 0;
+  padding: 4rem 8rem;
   text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
