@@ -704,9 +704,18 @@ textarea {
       height: 150px; } }
 
 .landingVeg {
-  background-color: lightcoral;
-  height: 740px; }
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  display: flex;
+  height: auto; }
   .landingVeg__img {
     width: 100%; }
+
+.explicacion {
+  width: 100%;
+  padding: 4rem 0;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
