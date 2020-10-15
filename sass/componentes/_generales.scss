@@ -26,13 +26,13 @@ h1,h2,h3,h4,h5{
     
 }
 .parrafo{
-    @include font-size(16px);
+    @include font-size(14px);
     color:$color4;
     @include media(desktop-l){
-        @include font-size(18px);
+        @include font-size(16px);
     }
     @include media(phone-m){
-        @include font-size(20px);
+        @include font-size(18px);
     }
 }
 .container {
