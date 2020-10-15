@@ -703,4 +703,10 @@ textarea {
     textarea {
       height: 150px; } }
 
+.landingVeg {
+  background-color: lightcoral;
+  height: 740px; }
+  .landingVeg__img {
+    width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
