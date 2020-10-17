@@ -500,14 +500,13 @@ figure {
         border-radius: 0px 0px 24px 24px;
         left: 0;
         width: 100%;
-        bottom: -60%; } }
+        bottom: -82%; } }
     @media only screen and (max-width: 425px) {
       .acerca__text {
-        z-index: 20;
-        border-radius: 0px 0px 24px 24px;
-        left: 0;
-        width: 100%;
-        bottom: -180%; } }
+        bottom: -250%; } }
+    @media only screen and (max-width: 375px) {
+      .acerca__text {
+        bottom: -300%; } }
 
 .habilidades {
   padding: 3rem 0; }
@@ -517,13 +516,17 @@ figure {
     grid-gap: 6rem; }
     @media only screen and (max-width: 767px) {
       .habilidades__grupo {
-        margin-top: 12rem;
+        margin-top: 17rem;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem; } }
     @media only screen and (max-width: 425px) {
       .habilidades__grupo {
-        margin-top: 28rem;
+        margin-top: 38rem;
         grid-template-columns: 1fr;
+        grid-gap: 2rem; } }
+    @media only screen and (max-width: 375px) {
+      .habilidades__grupo {
+        margin-top: 46rem;
         grid-gap: 2rem; } }
   @media only screen and (max-width: 1480px) {
     .habilidades {

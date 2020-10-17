@@ -53,14 +53,13 @@
          border-radius: 0px 0px 24px 24px;
          left:0;
          width: 100%;
-         bottom: -60%;
+         bottom: -82%;
       }
       @include media(phone-m){
-        z-index: 20;
-        border-radius: 0px 0px 24px 24px;
-        left:0;
-        width: 100%;
-        bottom: -180%;
+        bottom: -250%;
      }
+     @include media(phone){
+        bottom: -300%;
+   }
    }
 }

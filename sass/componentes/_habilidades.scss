@@ -6,13 +6,17 @@
         grid-template-columns:1fr 1.5fr 1fr;
         grid-gap:6rem;
         @include media(tablet){
-            margin-top:12rem;
+            margin-top:17rem;
             grid-template-columns:repeat(2, 1fr);
             grid-gap:2rem;
         }
         @include media(phone-m){
-            margin-top:28rem;
+            margin-top:38rem;
             grid-template-columns:1fr;
+            grid-gap:2rem;
+        }
+        @include media(phone){
+            margin-top:46rem;
             grid-gap:2rem;
         }
     }
