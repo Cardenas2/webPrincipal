@@ -706,19 +706,11 @@ textarea {
     textarea {
       height: 150px; } }
 
-.landingVeg {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center right;
-  display: flex;
-  height: auto; }
-  .landingVeg__img {
-    width: 100%; }
-
 .explicacion {
   width: 100%;
-  padding: 4rem 8rem;
+  padding: 4rem  10rem;
   text-align: center; }
+  .explicacion__intro {
+    padding: 1rem 0; }
 
 /*# sourceMappingURL=style.css.map */

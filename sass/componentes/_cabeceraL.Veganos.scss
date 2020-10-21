@@ -1,17 +1,9 @@
-.landingVeg{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center right;
-    display:flex;
-    height:auto;
-    &__img{
-        width: 100%;
-    }
-}
 .explicacion{
     width: 100%;
-    padding: 4rem 8rem;
+    padding:4rem  10rem;
     text-align: center;
+    &__intro{
+      padding: 1rem 0;  
+    }
     
 }
