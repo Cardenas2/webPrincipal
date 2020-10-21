@@ -708,9 +708,9 @@ textarea {
 
 .explicacion {
   width: 100%;
-  padding: 4rem  10rem;
+  padding: 4rem;
   text-align: center; }
   .explicacion__intro {
-    padding: 1rem 0; }
+    padding: 1rem 10rem; }
 
 /*# sourceMappingURL=style.css.map */
